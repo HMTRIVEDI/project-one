@@ -2,7 +2,11 @@ body {
     height: 100%;
     margin: 0;
     padding: 0;
-    font-family: sans-serif, arial;
+    font-family: 'Playfair Display', serif;
+}
+
+.row {
+    margin: 0;
 }
 
 .container-fluid {
@@ -34,8 +38,9 @@ body {
     border-radius: 50%;
 }
 
-.navbar-nav {margin-left: 40%;
-    font-size: 15px;
+.navbar-nav {
+    margin-left: 40%;
+    font-size: 25px;
     list-style: none;
 }
 
@@ -47,24 +52,32 @@ body {
     color: #f2f2f2 !important;
 }
 
+#carouselExampleSlidesOnly {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+}
+
 
 /**** footer ***/
 
 #footer {
-    position: relative;
+    height: auto;
+    bottom: 0;
+    padding: 0;
     margin: 0;
     background-color: #990000;
-    bottom: 0;
     width: 100%;
+    position: static;
 }
 
-.col-md-4 {
+.col-sm-4 {
+    width: 100%;
     text-align: center;
     color: #f2f2f2;
-    display: block;
 }
 
-.col-md-4 a i {
+.col-sm-4 a i {
     color: #f2f2f2;
 }
 
@@ -114,7 +127,7 @@ td {
 .offer {
     padding: 0;
     width: 100%;
-    background-image: url(drink.jpeg);
+    background-image: url(img/drink.jpeg);
     background-size: cover;
     height: 100%;
     background-repeat: no-repeat;
@@ -131,10 +144,51 @@ td {
     margin-left: 0%;
     background-color: #990000;
 }
+
 /*contact*/
 
-.contact{text-align: center;}
-.form-group{ width: 60%; margin-left:20%;}
+.contact {
+    font-size: large;
+    font-weight: bolder;
+    position: static;
+    color: #990000;
+    height: auto;
+    background-image: url(img/burger.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    margin-top: 2%;
+    padding: 0;
+}
 
+#contact {padding: 40px;
+    width: 60%;
+    background-color: rgba(0, 0, 0, 0.2);
+    height: auto;
+    color: #f2f2f2;
+    margin-top: 10px;
+    margin-left: 20%;
+}
 
+#bc {
+    margin-top: 2%;
+}
 
+/*join Us*/
+
+.join-us {
+    margin-top: 3%;
+    background-image: url(img/job.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #990000;
+}
+
+#job {
+    width: 50%;
+    font-size: large;
+}
+
+h6 {
+    font-size: x-large;
+}
