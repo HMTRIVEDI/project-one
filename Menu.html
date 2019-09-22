@@ -1,123 +1,261 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-  <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>-->
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
   <script src="https://kit.fontawesome.com/325cc790b1.js"></script>
-  <link href="https://fonts.googleapis.com/css?family=Lexend+Giga&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css" type="text/css" />
-  <title> K&H | Since 1992</title>
+  <link href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap" rel="stylesheet">
+  <title>K&H Since 1992</title>
 </head>
 
+
 <body>
-  <img src="front.jpeg" width="100%" height="auto"></img>
-  <!-- navigation bar --->
-  <div class="box">
-    <!-- LOGO-->
-    <div class="logo">
-      <h6>K&H</h6>
-      <p>Diner since 1992</p>
+
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-sm-12">
+        <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+          <a class="navbar-brand" href="index.html">
+            <img src="img/Logo.png" width="100px" hight ="50px" alt="LOGO"></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                     <span class="btn"><i class="fas fa-hamburger"></i></span>
+           </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Menu.html">Menu</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Offerzone.html">Offer Zone</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Contact.html">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="job.html">Join US</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
     </div>
-    <!--   <div class="burger"><i class="fas fa-hamburger"></i></div>-->
-    <ul class="nav">
-      <li class="item">
-        <a href="index.html">Home</a>
-      </li>
-      <li class="item">
-        <a href="Menu.html">Menu</a>
-      </li>
-      <li class="item">
-        <a href="Offerzone.html">Offer Zone</a>
-      </li>
-      <li class="item">
-        <a href="Contact">Contact</a>
-      </li>
-      <li class="item">
-        <a href="job">Work with Us</a>
-      </li>
-    </ul>
-  </div>
+    <!--menu-->
+    <div class="row" id="menu">
+      <div class="col-sm-12">
+        <div class="card" id="b">
+          <div class="card-body">
+            <h5 class="card-title">BURGER</h5>
+            <table>
+              <tr>
+                <td>
+                  fatboy
+                </td>
+                <td>40/-</td>
+              </tr>
+              <tr>
+                <td>
+                  bacon BBQ
+                </td>
+                <td>50/-</td>
+              </tr>
+              <tr>
+                <td>
+                  Kidzo
+                </td>
+                <td>20/-</td>
+              </tr>
+              <tr>
+                <td>
+                  Vigan light
+                </td>
+                <td>60/-</td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-12">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Sub-Sandwich</h5>
+            <table>
+              <tr>
+                <th>
+                  Sandwich
+                </th>
+                <th>
+                  Price (dkk)
+                </th>
+              </tr>
+              <tr>
+                <td>
+                  Amarican sub
+                </td>
+                <td>40/-</td>
+              </tr>
+              <tr>
+                <td>
+                  chicken tikka sub
+                </td>
+                <td>50/-</td>
+              </tr>
+              <tr>
+                <td>
+                  Kido-subs
+                </td>
+                <td>20/-</td>
+              </tr>
+              <tr>
+                <td>
+                  Vigano-subs
+                </td>
+                <td>60/-</td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-12">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">SIDE & DIPS</h5>
+            <table>
+              <tr>
+                <th>Sides
+                </th>
+                <th>
+                  Price (dkk)
+                </th>
+              </tr>
+              <tr>
+                <td>Fries
+                </td>
+                <td>20/-</td>
+              </tr>
+              <tr>
+                <td>Chiken Nuggets
+                </td>
+                <td>
+                  20/-
+                </td>
+              </tr>
+              <tr>
+                <td>cheese & mac
+                </td>
+                <td>30/-</td>
+              </tr>
+              <tr>
+                <td>Cheese nachos
+                </td>
+                <td>40/-</td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col-sm-12">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">DIPS</h5>
+            <table>
+              <tr>
+                <td>Mayo</td>
+              </tr>
+              <tr>
+                <td>BBQ</td>
+              </tr>
+              <tr>
+                <td>Katchup</td>
+              </tr>
+              <tr>
+                <td>Hot-Salsa</td>
+              </tr>
+          </div>
+          </table>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-12">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">DRINKS & DESSERT</h5>
+          <table>
+            <tr>
+              <th>
+                Drinks
+              </th>
+              <th>
+                20/-(dkk) 500ml
+              </th>
+            </tr>
+            <tr>
+              <td>Coca-Cola
+            </tr>
+            <tr>
+              <td>Fanta
+              </td>
+              <tr>
+                <td>Mix fruit Juice
+                </td>
+              </tr>
+              <tr>
+                <th>Dessert</th>
+                <th>Price (dkk)</th>
+              </tr>
+              <tr>
+                <td>ice-creem sunday</td>
+                <td>40/-</td>
+              </tr>
+              <tr>
+                <td>lava cake</td>
+                <td>20/-</td>
+              </tr>
+              <tr>
+                <td>pan cake</td>
+                <td>30/-</td>
+              </tr>
+          </table>
+        </div>
+      </div>
+    </div>
 
 
-  <! menu --------------------------------->
-
-  <div id="foodmenu">
-
-    <nav class="Menu">
-      <ul class="fm">
-        <li class="i">
-          <a href="#f1b">Burger</a>
-        </li>
-        <li class="i">
-          <a href="#f1s">Sandwich</a>
-        </li>
-        <li class="i">
-          <a href="#f1sd">Sides & Dips</a>
-        </li>
-        <li class="i">
-          <a href="f1dd">Desserts & Drinks</a>
-        </li <ul>
-    </nav>
-    <main>
-      <table id="f1b">
-        <tr>
-          <th>
-            <h5>Burger</h5>
-          </th>
-          <th>
-            <h5>Price (dkk)</h5>
-          </th>
-        </tr>
-        <tr>
-          <td>
-            <h6>smoky Bacone</h6>
-          </td>
-          <td>40/-</td>
-        </tr>
-        <tr>
-          <td>
-            <h6>Amarican Delux</h6>
-          </td>
-          <td>50/-</td>
-        </tr>
-        <tr>
-          <td>
-            <h6>Kido</h6>
-          </td>
-          <td>15/-</td>
-        </tr>
-        <tr>
-          <td>
-            <h6>Vigano Delux</h6>
-          </td>
-          <td>60/-</td>
-        </tr>
-      </table>
-    </main>
 
 
-    <!-*-footer>
 
-    <footer>
-      <div class="box-s">
-        <h6>Like Us</h6>
+    <div class="row" id="footer">
+      <div class="col-md-4" id="A">
+        <p>Address</p>
+        <p>H.C Andersanvej 18-1 th, Copenhagen denmark</p>
+      </div>
+      <div class="col-md-4" id="o">
+        <p>Like us</p>
         <a href=" mailto: "><i class="fab fa-youtube "></i></a>
         <a href="mailto: "><i class="fab fa-facebook-f "></i></a>
         <a href="mailto: "><i class="fab fa-twitter "></i></a>
       </div>
-    </footer>
+      <div class="col-md-4" id="l">
+        <p>opening Hours</p>
+        <p>10:00 to 23:00</p>
+      </div>
+    </div>
 
 
-
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 
 </html>
