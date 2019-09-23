@@ -95,7 +95,6 @@ body {
 }
 
 .col-sm-12 {
-    width: auto;
     margin: 30px 0px;
     float: right;
 }
@@ -108,17 +107,27 @@ body {
     font-size: 20px;
     font-weight: bold;
     text-transform: uppercase;
+}
 
+#b {
+    margin-top: 5%;
+    width: auto;
+}
+
+.card-title {
+    font-size: x-large;
+    font-weight: bolder;
+    padding: 5%;
 }
 
 table {
-    width: 50%;
+    width:60%;
     margin-left: 20%;
-    height: 20%;
+    height: 30%;
 }
 
 td {
-    padding: 15px;
+    padding: 10px;
 }
 
 
@@ -161,7 +170,8 @@ td {
     padding: 0;
 }
 
-#contact {padding: 40px;
+#contact {
+    padding: 40px;
     width: 60%;
     background-color: rgba(0, 0, 0, 0.2);
     height: auto;
