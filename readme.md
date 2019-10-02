@@ -23,6 +23,7 @@ Pllaning to impliment following Features
 
 -online food ordering
 -online payment
+-social media pages
 
 
 Technologies Used:
