@@ -2,7 +2,8 @@ body {
     height: 100%;
     margin: 0;
     padding: 0;
-    font-family: 'Playfair Display', serif;
+    background-color: #F7E9D4!important;
+    font-family: 'Mansalva', cursive;
 }
 
 .row {
@@ -16,70 +17,80 @@ body {
 }
 
 .bg-light {
-    background-color: #990000!important;
+    background-color: rgb(255, 224, 102)!important;
 }
 
 .btn i {
-    color: #f2f2f2;
+    color:#8601AF ;
 }
 
 
 .navbar-light .navbar-toggler-icon {
-    color: #f2f2f2;
+    color: #8601AF;
 }
 
 
 .navbar-toggler {
+    color: #8601AF;
     padding: 0rem 0rem;
-    font-size: 1.5rem;
+    font-size: 1.0rem;
     line-height: 1;
-    background-color: #990000;
     border: none;
     border-radius: 50%;
 }
 
 .navbar-nav {
-    margin-left: 40%;
+    margin-left: 10%;
     font-size: 25px;
     list-style: none;
 }
 
 
-.nav-link {
+.nav-link {font-weight: bolder;
+    font-size: 1.2rem;
     width: 100%;
-    margin: 5px 20px;
-    color: #ffffff;
-    color: #f2f2f2 !important;
+    margin: 0px 25px;
+    color: #000000;
 }
 
-#carouselExampleSlidesOnly {
-    height: 100%;
+.nav-link:hover {border-radius: 10px;
     width: 100%;
-    padding: 0;
+    margin: 0px 20px;
+    color: #000000;
+    background-color:rgba(0, 172, 230,0.3);
 }
 
 
 /**** footer ***/
 
 #footer {
-    height: auto;
     bottom: 0;
-    padding: 0;
-    margin: 0;
-    background-color: #990000;
+    margin: 0 auto;
+    background-color: rgba(0,0,0,0.8);
     width: 100%;
-    position: static;
+    position: absolute;
 }
 
-.col-sm-4 {
+.col-sm-4 H6{margin: 10px;
+    font-size: 14px;
     width: 100%;
     text-align: center;
-    color: #f2f2f2;
+    color: #00ace6;
+    text-transform: uppercase;
 }
 
-.col-sm-4 a i {
-    color: #f2f2f2;
+.col-sm-4{margin-top:  10px;font-weight: bolder;
+    font-size: 15px;
+    width: 100%;
+    text-align: center;
+    color:#ff9999;letter-spacing: 1px;
+    text-transform: uppercase;
 }
+
+.col-sm-4 a i {text-align: center;
+    color: #ff9999;
+}
+
 
 /********menu*******/
 
@@ -121,7 +132,7 @@ body {
 }
 
 table {
-    width:60%;
+    width: 60%;
     margin-left: 20%;
     height: 30%;
 }
@@ -151,7 +162,7 @@ td {
 
 .btn {
     margin-left: 0%;
-    background-color: #990000;
+    background-color: transparent;
 }
 
 /*contact*/
