@@ -6,22 +6,20 @@ body {
     font-family: 'Mansalva', cursive;
 }
 
-.row {
-    margin: 0;
-}
-
 .container-fluid {
     height: 100%;
     padding: 0;
     margin: 0;
 }
 
+/*navigation bar style*/
+
 .bg-light {
     background-color: rgb(255, 224, 102)!important;
 }
 
 .btn i {
-    color:#8601AF ;
+    color: #8601AF;
 }
 
 
@@ -46,32 +44,43 @@ body {
 }
 
 
-.nav-link {font-weight: bolder;
+.nav-link {
+    font-weight: bolder;
+    border-radius: 30px;
     font-size: 1.2rem;
     width: 100%;
     margin: 0px 25px;
     color: #000000;
+    transition: background-color 1s;
+    -webkit-transition: background-color 1s;
 }
 
-.nav-link:hover {border-radius: 10px;
+.nav-link:hover {
+    font-weight: bolder;
+    border-radius: 30px;
+    font-size: 1.2rem;
     width: 100%;
-    margin: 0px 20px;
+    margin: 0px 25px;
     color: #000000;
-    background-color:rgba(0, 172, 230,0.3);
+    background-color: rgba(0, 172, 230, 0.3);
 }
 
+#about{width:100%;height:auto}
 
-/**** footer ***/
+img{width: 100%; height: auto;}
+/***contant style Home page***/
+
+/**** footer style***/
 
 #footer {
     bottom: 0;
     margin: 0 auto;
-    background-color: rgba(0,0,0,0.8);
-    width: 100%;
-    position: absolute;
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 100%; position: relative;
 }
 
-.col-sm-4 H6{margin: 10px;
+.col-sm-4 H6 {
+    margin: 10px;
     font-size: 14px;
     width: 100%;
     text-align: center;
@@ -79,15 +88,19 @@ body {
     text-transform: uppercase;
 }
 
-.col-sm-4{margin-top:  10px;font-weight: bolder;
+.col-sm-4 {
+    margin-top: 10px;
+    font-weight: bolder;
     font-size: 15px;
     width: 100%;
     text-align: center;
-    color:#ff9999;letter-spacing: 1px;
+    color: #ff9999;
+    letter-spacing: 1px;
     text-transform: uppercase;
 }
 
-.col-sm-4 a i {text-align: center;
+.col-sm-4 a i {
+    text-align: center;
     color: #ff9999;
 }
 
