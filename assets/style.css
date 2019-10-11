@@ -1,4 +1,4 @@
-body {
+html body {
     height: 100%;
     margin: 0;
     padding: 0;
@@ -15,6 +15,9 @@ body {
 /*navigation bar style*/
 
 .bg-light {
+    margin: 0;
+    padding: 0;
+    width: 100%;
     background-color: rgb(255, 224, 102)!important;
 }
 
@@ -65,18 +68,31 @@ body {
     background-color: rgba(0, 172, 230, 0.3);
 }
 
-#about{width:100%;height:auto}
-
-img{width: 100%; height: auto;}
 /***contant style Home page***/
+
+.container{background-image: url(assets/img/burger-min.jpeg)}
+#about .col-sm-6 {
+    width: auto;
+    height: auto;
+    padding: 40px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    border-radius: 30px;
+    border-style: dashed;border-collapse: separate;
+}
 
 /**** footer style***/
 
 #footer {
+    padding: 0;
     bottom: 0;
-    margin: 0 auto;
+    margin: 0;
     background-color: rgba(0, 0, 0, 0.8);
-    width: 100%; position: relative;
+    width: 100%;
+    
 }
 
 .col-sm-4 H6 {
