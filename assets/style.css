@@ -44,7 +44,7 @@ html body {
     margin: 0px 25px;
     color: #000000;
     transition: background-color 1s;
-    -webkit-transition: background-color 1s;
+    -webkit-transition: background-color font-size 1s;
 }
 
 .nav-link:hover {
@@ -58,17 +58,99 @@ html body {
 
 /***contant style Home page***/
 
-#about .col-sm-6 {
-    height: auto;
-    padding: 20px;
-}
-
-
-img {
+#food img {
     width: 100%;
     height: auto;
     border-radius: 30px;
     border-style: groove;
+}
+
+.focus {
+    Color: #F7E9D4;
+    position: absolute;
+    width: 100%;
+    height: auto;
+    top: 120px;
+    left: 10px;
+}
+
+@media (min-width:320px) {
+    .focus {
+        Color: #F7E9D4;
+        position: absolute;
+        width: 50%;
+        height: auto;
+        top: 10px;
+        left: 95px;
+    }
+    .focus h6+button {
+        font-size: 10px;
+    }
+}
+
+@media (min-width:480px) { .focus {
+        Color: #F7E9D4;
+        position: absolute;
+        width: 50%;
+        height: auto;
+        top: 15px;
+        left: 125px;
+    }
+    .focus h6+button {
+        font-size: 15px;
+    }
+    /* smartphones, Android phones, landscape iPhone */
+}
+
+@media (min-width:600px) {.focus {
+        Color: #F7E9D4;
+        position: absolute;
+        width: 50%;
+        height: auto;
+        top: 35px;
+        left: 170px;
+    }
+    .focus h6{
+        font-size: 40px;
+    }
+    /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
+}
+
+@media (min-width:801px) {.focus {
+        Color: #F7E9D4;
+        position: absolute;
+        width: 50%;
+        height: auto;
+        top: 55px;
+        left: 195px;
+    }
+    .focus h6{
+        font-size: 40px;
+    }
+    /* tablet, landscape iPad, lo-res laptops ands desktops */
+}
+
+@media (min-width:1025px) {.focus {
+        Color: #F7E9D4;
+        position: absolute;
+        width: 50%;
+        height: auto;
+        top: 80px;
+        left: 250px;    }
+    .focus h6{
+        font-size: 60px;
+    }
+    /* big landscape tablets, laptops, and desktops */
+}
+
+@media (min-width:1281px) {
+    /* hi-res laptops and desktops */
+}
+
+
+#about .col-sm-6 {
+    height: auto;
+    padding: 20px;
 }
 
 #about .col-sm-6 img {
@@ -113,6 +195,26 @@ img {
     text-align: center;
     color: #ff9999;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /********menu*******/
@@ -166,15 +268,6 @@ td {
 
 
 /*offer*/
-
-.focus {
-    Color: #F7E9D4;
-    position: absolute;
-    width: 100%;
-    height: auto;
-    top: 120px;
-    left: 10px;
-}
 
 .offer {
     padding: 0;
