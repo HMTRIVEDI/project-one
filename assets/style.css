@@ -6,18 +6,9 @@ html body {
     font-family: 'Mansalva', cursive;
 }
 
-.container-fluid {
-    height: 100%;
-    padding: 0;
-    margin: 0;
-}
-
 /*navigation bar style*/
 
 .bg-light {
-    margin: 0;
-    padding: 0;
-    width: 100%;
     background-color: rgb(255, 224, 102)!important;
 }
 
@@ -37,7 +28,6 @@ html body {
     font-size: 1.0rem;
     line-height: 1;
     border: none;
-    border-radius: 50%;
 }
 
 .navbar-nav {
@@ -50,8 +40,7 @@ html body {
 .nav-link {
     font-weight: bolder;
     border-radius: 30px;
-    font-size: 1.2rem;
-    width: 100%;
+    font-size: 1.0rem;
     margin: 0px 25px;
     color: #000000;
     transition: background-color 1s;
@@ -62,7 +51,6 @@ html body {
     font-weight: bolder;
     border-radius: 30px;
     font-size: 1.2rem;
-    width: 100%;
     margin: 0px 25px;
     color: #000000;
     background-color: rgba(0, 172, 230, 0.3);
@@ -70,18 +58,24 @@ html body {
 
 /***contant style Home page***/
 
-.container{background-image: url(assets/img/burger-min.jpeg)}
 #about .col-sm-6 {
-    width: auto;
     height: auto;
-    padding: 40px;
+    padding: 20px;
 }
+
 
 img {
     width: 100%;
     height: auto;
     border-radius: 30px;
-    border-style: dashed;border-collapse: separate;
+    border-style: groove;
+}
+
+#about .col-sm-6 img {
+    width: 100%;
+    height: auto;
+    border-radius: 30px;
+    border-style: dashed;
 }
 
 /**** footer style***/
@@ -92,7 +86,7 @@ img {
     margin: 0;
     background-color: rgba(0, 0, 0, 0.8);
     width: 100%;
-    
+
 }
 
 .col-sm-4 H6 {
@@ -172,6 +166,15 @@ td {
 
 
 /*offer*/
+
+.focus {
+    Color: #F7E9D4;
+    position: absolute;
+    width: 100%;
+    height: auto;
+    top: 120px;
+    left: 10px;
+}
 
 .offer {
     padding: 0;
