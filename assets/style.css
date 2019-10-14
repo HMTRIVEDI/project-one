@@ -25,14 +25,14 @@ html body {
 .navbar-toggler {
     color: #8601AF;
     padding: 0rem 0rem;
-    font-size: 1.0rem;
+    font-size: 10vw;
     line-height: 1;
     border: none;
 }
 
 .navbar-nav {
     margin-left: 8%;
-    font-size: 40px;
+    font-size: 40vw;
     list-style: none;
 }
 
@@ -72,27 +72,34 @@ html body {
     top: 120px;
     left: 10px;
     text-align: center;
-  
+
 }
 
 
 
-.focus button{font-size:10px; border-color: transparent; Background-color:transparent;
--webkit-animation:light 1s ease-in-out infinite alternate;
-  -moz-animation: light 1s ease-in-out infinite alternate;
-  animation: light 1s ease-in-out infinite alternate;}
-  
-  @-webkit-keyframes light {
-  from {
-    text-shadow: 0 1px 10px red, 0 0 20px blue, 0 0 30px green, 0 0 40px yellow, 0 0 50px gold, 0 0 60px silver, 0 0 70px pink;
-  }
-  
-  to {
-    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
-  }
+.focus button a {
+    font-size: 15px;
+    border-color: transparent;
+    Background-color: transparent;
+    -webkit-animation: light 1s ease-in-out infinite alternate;
+    -moz-animation: light 1s ease-in-out infinite alternate;
+    animation: light 1s ease-in-out infinite alternate;
 }
 
-.focus button a{text-decoration: none; color: #ffffff;}
+@-webkit-keyframes light {
+    from {
+        text-shadow: 0 1px 10px red, 0 0 20px blue, 0 0 30px green, 0 0 40px yellow, 0 0 50px gold, 0 0 60px silver, 0 0 70px pink;
+    }
+
+    to {
+        text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+    }
+}
+
+.focus button a {
+    text-decoration: none;
+    color: #ffffff;
+}
 
 @media (min-width:320px) {
     .focus {
@@ -108,7 +115,8 @@ html body {
     }
 }
 
-@media (min-width:480px) { .focus {
+@media (min-width:480px) {
+    .focus {
         Color: #F7E9D4;
         position: absolute;
         width: 50%;
@@ -122,7 +130,8 @@ html body {
     /* smartphones, Android phones, landscape iPhone */
 }
 
-@media (min-width:600px) {.focus {
+@media (min-width:600px) {
+    .focus {
         Color: #F7E9D4;
         position: absolute;
         width: 50%;
@@ -130,13 +139,14 @@ html body {
         top: 35px;
         left: 170px;
     }
-    .focus h6{
+    .focus h6 {
         font-size: 40px;
     }
     /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
 }
 
-@media (min-width:801px) {.focus {
+@media (min-width:801px) {
+    .focus {
         Color: #F7E9D4;
         position: absolute;
         width: 50%;
@@ -144,20 +154,22 @@ html body {
         top: 55px;
         left: 195px;
     }
-    .focus h6{
+    .focus h6 {
         font-size: 40px;
     }
     /* tablet, landscape iPad, lo-res laptops ands desktops */
 }
 
-@media (min-width:1025px) {.focus {
+@media (min-width:1025px) {
+    .focus {
         Color: #F7E9D4;
         position: absolute;
         width: 50%;
         height: auto;
         top: 80px;
-        left: 250px;    }
-    .focus h6{
+        left: 250px;
+    }
+    .focus h6 {
         font-size: 60px;
     }
     /* big landscape tablets, laptops, and desktops */
@@ -178,6 +190,10 @@ html body {
     height: auto;
     border-radius: 30px;
     border-style: dashed;
+}
+
+#hero {
+    padding: 10px;
 }
 
 /**** footer style***/
@@ -216,7 +232,12 @@ html body {
     color: #ff9999;
 }
 
-.col-sm-4 button{margin: 10px; background-color: transparent;padding:5px;border-radius: 10px;}
+.col-sm-4 button {
+    margin: 10px;
+    background-color: transparent;
+    padding: 5px;
+    border-radius: 10px;
+}
 
 
 
@@ -240,8 +261,28 @@ html body {
 
 
 /********menu*******/
-#burgermenu img{width: 100%;height: auto;}
-th{font-weight: 900;}
+
+.container-fluid{margin:5px;padding: 5px;
+    text-align: center;
+}
+
+.menuhead {
+    width: 100%;
+    margin: 20px 0px;
+    background-color: red;
+    text-align: center;
+}
+
+.col-sm-6 {text-overflow: ellipsis;
+    width: 100%;
+    height: auto;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
 
 /*offer*/
 
