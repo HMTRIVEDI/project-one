@@ -4,6 +4,7 @@ html body {
     padding: 0;
     background-color: #F7E9D4!important;
     font-family: 'Mansalva', cursive;
+    all: initial|inherit|unset;
 }
 
 /*navigation bar style*/
@@ -272,7 +273,7 @@ html body {
     background-color: red;
     text-align: center;
 }
-
+S
 .col-sm-6 {text-overflow: ellipsis;
     width: 100%;
     height: auto;
