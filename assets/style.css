@@ -4,8 +4,6 @@ html body {
     padding: 0;
     background-color: #F7E9D4!important;
     font-family: 'Mansalva', cursive;
-    -webkit-align-self: center; /* Safari 7.0+ */
-  align-self: center;
 }
 
 /*navigation bar style*/
@@ -264,7 +262,9 @@ html body {
 
 /********menu*******/
 
-.container-fluid{margin:5px;padding: 5px;
+.container-fluid {
+    margin: 5px;
+    padding: 5px;
     text-align: center;
 }
 
@@ -274,8 +274,9 @@ html body {
     background-color: red;
     text-align: center;
 }
-S
-.col-sm-6 {text-overflow: ellipsis;
+
+S .col-sm-6 {
+    text-overflow: ellipsis;
     width: 100%;
     height: auto;
 }
