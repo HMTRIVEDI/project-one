@@ -4,7 +4,8 @@ html body {
     padding: 0;
     background-color: #F7E9D4!important;
     font-family: 'Mansalva', cursive;
-    all: initial|inherit|unset;
+    -webkit-align-self: center; /* Safari 7.0+ */
+  align-self: center;
 }
 
 /*navigation bar style*/
