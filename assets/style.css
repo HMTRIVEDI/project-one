@@ -254,7 +254,7 @@ body {
     font-size: 20px;
 }
 
-.menu .row>col-sm-6 {
+.menu .row>col-sm-6 {border-bottom: dashed;
     padding: 10px;
 }
 
@@ -282,21 +282,7 @@ body {
 .custjumbo1 {
     background-color: white;
     padding: 20px;
-    text-shadow: 0 0 20px #fff -webkit-animation: light 1s ease-in-out infinite alternate;
-    -moz-animation: begcolo 1s ease-in-out infinite alternate;
-    animation: begcolo 1s ease-in-out infinite alternate;
 }
-
-@-webkit-keyframes light {
-    from {
-        text-shadow: 0 5px 10px red, 0 0 20px blue, 0 0 30px green, 0 0 40px yellow, 0 0 50px gold, 0 0 60px silver, 0 0 70px pink;
-    }
-
-    to {
-        text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
-    }
-}
-
 
 .custjumbo2 {
     background-color: green;
@@ -320,3 +306,4 @@ body {
 }
 
 /*join Us*/
+
