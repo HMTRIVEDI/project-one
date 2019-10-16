@@ -23,16 +23,14 @@ body {
 
 
 .navbar-toggler {
-    width: auto;
+    width:auto;
     color: #8601AF;
     padding: 0rem 0rem;
     font-size: 10vw;
-    line-height: 1;
     border: none;
 }
 
 .navbar-nav {
-    margin-left: 30%;
     list-style: none;
 }
 
@@ -43,6 +41,8 @@ body {
     border-radius: 30px;
     font-size: 1.5rem;
     color: #000000;
+    -webkit-transition: background-color 1s;
+    -o-transition: background-color 1s;
     transition: background-color 1s;
     -webkit-transition: background-color font-size 1s;
 }
@@ -68,12 +68,6 @@ body {
     border-style: groove;
 }
 
-#about {
-    font-size: 2vw;
-    text-align: justify;
-}
-
-#intro{margin-top:6vw;}
 
 .focus {
     position: absolute;
@@ -85,14 +79,11 @@ body {
 
 }
 
-
-
 .focus button a {
     font-size: 15px;
     border-color: transparent;
     Background-color: transparent;
     -webkit-animation: light 1s ease-in-out infinite alternate;
-    -moz-animation: light 1s ease-in-out infinite alternate;
     animation: light 1s ease-in-out infinite alternate;
 }
 
