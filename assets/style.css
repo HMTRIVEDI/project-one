@@ -1,8 +1,8 @@
-html body {
+body {
     height: 100%;
     margin: 0;
     padding: 0;
-    background-color: #F7E9D4!important;
+    background-color: #F7E9D4;
     font-family: 'Mansalva', cursive;
 }
 
@@ -23,6 +23,7 @@ html body {
 
 
 .navbar-toggler {
+    width: auto;
     color: #8601AF;
     padding: 0rem 0rem;
     font-size: 10vw;
@@ -31,17 +32,16 @@ html body {
 }
 
 .navbar-nav {
-    margin-left: 8%;
-    font-size: 40vw;
+    margin-left: 30%;
     list-style: none;
 }
 
 
 .nav-link {
+    margin-left: 30px;
     font-weight: bolder;
     border-radius: 30px;
-    font-size: 1.0rem;
-    margin: 0px 25px;
+    font-size: 1.5rem;
     color: #000000;
     transition: background-color 1s;
     -webkit-transition: background-color font-size 1s;
@@ -50,13 +50,16 @@ html body {
 .nav-link:hover {
     font-weight: bolder;
     border-radius: 30px;
-    font-size: 1.2rem;
-    margin: 0px 25px;
+    font-size: 1.5rem;
     color: #000000;
     background-color: rgba(0, 172, 230, 0.3);
 }
 
 /***contant style Home page***/
+
+#food {
+    margin-top: 5%;
+}
 
 #food img {
     width: 100%;
@@ -167,9 +170,12 @@ html body {
         width: 50%;
         height: auto;
         top: 80px;
-        left: 250px;
+        left: 310px;
     }
     .focus h6 {
+        font-size: 60px;
+    }
+    .focus h6+button>a {
         font-size: 60px;
     }
     /* big landscape tablets, laptops, and desktops */
@@ -181,6 +187,7 @@ html body {
 
 
 #about .col-sm-6 {
+    font-size: 2vw;
     height: auto;
     padding: 20px;
 }
@@ -207,7 +214,7 @@ html body {
 
 }
 
-.col-sm-4 H6 {
+#footer .col-sm-4 H6 {
     margin: 10px;
     font-size: 14px;
     width: 100%;
@@ -216,7 +223,7 @@ html body {
     text-transform: uppercase;
 }
 
-.col-sm-4 {
+#footer .col-sm-4 {
     margin-top: 10px;
     font-weight: bolder;
     font-size: 15px;
@@ -239,122 +246,77 @@ html body {
     border-radius: 10px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /********menu*******/
 
-.container-fluid {
-    margin: 5px;
-    padding: 5px;
+.menu {
+    padding: 1%;
     text-align: center;
+    font-size: 20px;
+}
+
+.menu .row>col-sm-6 {
+    padding: 10px;
 }
 
 .menuhead {
+    font-size: 40px;
     width: 100%;
-    margin: 20px 0px;
-    background-color: red;
+    margin-top: 60px;
+    margin-bottom: 20px;
+    background-color: rgba(209, 31, 102, 0.3);
     text-align: center;
 }
 
-S .col-sm-6 {
-    text-overflow: ellipsis;
+.item .col-sm-6 {
     width: 100%;
     height: auto;
 }
-
-img {
-    width: 100%;
-    height: auto;
-}
-
 
 /*offer*/
 
-.offer {
-    padding: 0;
-    width: 100%;
-    background-image: url(img/drink.jpeg);
-    background-size: cover;
-    height: 100%;
-    background-repeat: no-repeat;
+.offerzone {
+    background-image: url(../img/foodb.jpg);
+    padding: 20px;
 }
 
-.col-sm-12 {
-    margin-top: 30px;
-    width: 100%;
-    height: 100%;
-    text-align: center;
+.custjumbo1 {
+    background-color: white;
+    padding: 20px;
+    text-shadow: 0 0 20px #fff -webkit-animation: light 1s ease-in-out infinite alternate;
+    -moz-animation: begcolo 1s ease-in-out infinite alternate;
+    animation: begcolo 1s ease-in-out infinite alternate;
 }
 
-.btn {
-    margin-left: 0%;
-    background-color: transparent;
+@-webkit-keyframes light {
+    from {
+        text-shadow: 0 5px 10px red, 0 0 20px blue, 0 0 30px green, 0 0 40px yellow, 0 0 50px gold, 0 0 60px silver, 0 0 70px pink;
+    }
+
+    to {
+        text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+    }
 }
 
-/*contact*/
+
+.custjumbo2 {
+    background-color: green;
+    padding: 20px;
+}
+
+.custjumbo3 {
+    background-color: gray;
+    padding: 20px;
+}
+
+.custjumbo4 {
+    background-color: skyblue;
+    padding: 20px;
+}
+
+/***contact**/
 
 .contact {
-    font-size: large;
-    font-weight: bolder;
-    position: static;
-    color: #990000;
-    height: auto;
-    background-image: url(img/burger.jpeg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    text-align: center;
-    margin-top: 2%;
-    padding: 0;
-}
-
-#contact {
-    padding: 40px;
-    width: 60%;
-    background-color: rgba(0, 0, 0, 0.2);
-    height: auto;
-    color: #f2f2f2;
-    margin-top: 10px;
-    margin-left: 20%;
-}
-
-#bc {
-    margin-top: 2%;
+    margin: 10%;
 }
 
 /*join Us*/
-
-.join-us {
-    margin-top: 3%;
-    background-image: url(img/job.jpeg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: #990000;
-}
-
-#job {
-    width: 50%;
-    font-size: large;
-}
-
-h6 {
-    font-size: x-large;
-}
