@@ -17,7 +17,7 @@
 <body>
 
   <div class="row">
-    <div class="col-sm-12" height="30%">
+    <div class="col-sm-12">
       <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand" href="index.html">
             <img src="" width="100px" height="80px" alt="LOGO"></a>
@@ -51,16 +51,17 @@
   <!--contact-->
   <div class="contact row text-center">
     <div class="col-sm-6 offset-sm-3">
-      <div class="container-fluid contact">
-        <h6 class="display-4">- Write to Us -</h6>
-        <form action="mailto:hmtrivedi.3@gmail.com" method="post" enctype="text/plain">
+      <div class="container-fluid contact" style="margin-left: 0px;
+    margin-right: 0px; margin-top: 40px; border:1px; background-color:rgba(0,0,0,0.2);border-radius:5%; padding:20px;">
+        <p class="h4" style="margin-bottom:40px;">- Write to Us -</p>
+        <form action="mailto:hmtrivedi.3@gmail.com" method="post" enctype="text/plain" style="">
           <div class="form-group">
             <label for="exampleFormControlInput1">Email address</label>
             <input type="email" reclass="form-control" id="exampleFormControlInput1" placeholder="name@example.com" validator="email" required>
           </div>
           <div class="form-group">
             <label for="exampleFormControlSelect1">Select one</label>
-            <select class="form-control" id="examplecFormControlSelect1" required>
+            <select class="form-control" id="examplecFormControlSelect1" required >
                        <option>Booking</option>
                        <option>Complain</option>
                        <option>Question</option>
@@ -70,7 +71,7 @@
           <div class="form-group">
             <label for="exampleFormControlTextarea1">Give Your  Comment</label>
             <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-            <button id="bc" type="submit" class="btn btn-primary" required>Submit</button>
+            <button id="bc" type="submit" class="btn btn-primary" required style="margin-top:20px;">Submit</button>
           </div>
         </form>
       </div>
