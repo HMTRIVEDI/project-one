@@ -9,7 +9,7 @@ body {
 /*navigation bar style*/
 
 .bg-light {
-    background-color: rgb(255, 224, 102)!important;
+    background-color: rgb(255, 224, 102) !important;
 }
 
 .btn i {
@@ -29,14 +29,6 @@ body {
     border: none;
 }
 
-.navbar-toggler:click {
-    width: auto;
-    color: #8601AF;
-    padding: 0rem 0rem;
-    font-size: 15vw;
-    border: none;
-}
-
 
 .navbar-nav {
     width: auto;
@@ -44,18 +36,18 @@ body {
 }
 
 
-.nav-link {width:100%;
+.nav-link {
+    width: 100%;
     margin-left: 40%;
     font-weight: 100;
     border-radius: 30px;
     font-size: 1.5rem;
     color: #000000;
-    -webkit-transition: font-size 1s;
-    -o-transition: font-size 1s;
     transition: font size 1s;
 }
 
-.nav-link:hover {padding: 10px;
+.nav-link:hover {
+    padding: 10px;
     margin-left: 40%;
     font-weight: bolder;
     border-radius: 30px;
@@ -85,6 +77,7 @@ body {
     height: auto;
     border-radius: 10%;
     border-style: none;
+    -webkit-filter: drop-shadow(10px 10px rgba(0, 0, 0, 0.1));
     filter: drop-shadow(10px 10px rgba(0, 0, 0, 0.1));
 }
 
@@ -98,6 +91,16 @@ body {
 }
 
 @-webkit-keyframes light {
+    from {
+        text-shadow: 0 1px 10px red, 0 0 20px blue, 0 0 30px green, 0 0 40px yellow, 0 0 50px gold, 0 0 60px silver, 0 0 70px pink;
+    }
+
+    to {
+        text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+    }
+}
+
+@keyframes light {
     from {
         text-shadow: 0 1px 10px red, 0 0 20px blue, 0 0 30px green, 0 0 40px yellow, 0 0 50px gold, 0 0 60px silver, 0 0 70px pink;
     }
@@ -228,7 +231,7 @@ body {
     animation: light 1s ease-in-out infinite alternate;
 }
 
-@-webkit-keyframes light {
+@keyframes light {
     from {
         text-shadow: 0 1px 10px red, 0 0 20px blue, 0 0 30px green, 0 0 40px yellow, 0 0 50px gold, 0 0 60px silver, 0 0 70px pink;
     }
@@ -243,7 +246,7 @@ body {
     color: #ffffff;
 }
 
-@media (min-width:320px) {
+@media (min-width: 320px) {
     .focus {
         Color: #F7E9D4;
         position: absolute;
@@ -252,12 +255,13 @@ body {
         top: 10px;
         left: 95px;
     }
-    .focus h6+button {
+
+    .focus h6 + button {
         font-size: 10px;
     }
 }
 
-@media (min-width:480px) {
+@media (min-width: 480px) {
     .focus {
         Color: #F7E9D4;
         position: absolute;
@@ -266,13 +270,15 @@ body {
         top: 15px;
         left: 125px;
     }
-    .focus h6+button {
+
+    .focus h6 + button {
         font-size: 15px;
     }
+
     /* smartphones, Android phones, landscape iPhone */
 }
 
-@media (min-width:600px) {
+@media (min-width: 600px) {
     .focus {
         Color: #F7E9D4;
         position: absolute;
@@ -281,13 +287,15 @@ body {
         top: 35px;
         left: 170px;
     }
+
     .focus h6 {
         font-size: 40px;
     }
+
     /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
 }
 
-@media (min-width:801px) {
+@media (min-width: 801px) {
     .focus {
         Color: #F7E9D4;
         position: absolute;
@@ -296,13 +304,15 @@ body {
         top: 55px;
         left: 195px;
     }
+
     .focus h6 {
         font-size: 40px;
     }
+
     /* tablet, landscape iPad, lo-res laptops ands desktops */
 }
 
-@media (min-width:1025px) {
+@media (min-width: 1025px) {
     .focus {
         Color: #F7E9D4;
         position: absolute;
@@ -311,16 +321,19 @@ body {
         top: 80px;
         left: 310px;
     }
+
     .focus h6 {
         font-size: 60px;
     }
-    .focus h6+button>a {
+
+    .focus h6 + button > a {
         font-size: 60px;
     }
+
     /* big landscape tablets, laptops, and desktops */
 }
 
-@media (min-width:1281px) {
+@media (min-width: 1281px) {
     /* hi-res laptops and desktops */
 }
 
@@ -393,7 +406,7 @@ body {
     font-size: 20px;
 }
 
-.menu .row>col-sm-6 {
+.menu .row > col-sm-6 {
     border-bottom: dashed;
     padding: 10px;
 }
@@ -473,7 +486,7 @@ form .btn {
 }
 
 #footer .col-sm-4 {
-    - margin-top: 10px;
+    margin-top: 10px;
     font-weight: bolder;
     font-size: 15px;
     width: 100%;
@@ -488,7 +501,7 @@ form .btn {
     color: #ff9999;
 }
 
-@media (min-width:320px) {
+@media (min-width: 320px) {
     .focus {
         Color: #F7E9D4;
         position: absolute;
@@ -497,7 +510,8 @@ form .btn {
         top: 10px;
         left: 80px;
     }
-    .focus h6+button {
+
+    .focus h6 + button {
         font-size: 10px;
     }
 
@@ -509,7 +523,7 @@ form .btn {
         background-color: red;
         padding: 20px;
     }
-    
+
 
     .custjumbo2 {
         background-color: green;
@@ -533,7 +547,7 @@ form .btn {
 
 }
 
-@media (min-width:480px) {
+@media (min-width: 480px) {
     .focus {
         Color: #F7E9D4;
         position: absolute;
@@ -542,13 +556,15 @@ form .btn {
         top: 15px;
         left: 125px;
     }
-    .focus h6+button {
+
+    .focus h6 + button {
         font-size: 15px;
     }
+
     /* smartphones, Android phones, landscape iPhone */
 }
 
-@media (min-width:600px) {
+@media (min-width: 600px) {
     .focus {
         Color: #F7E9D4;
         position: absolute;
@@ -557,13 +573,15 @@ form .btn {
         top: 35px;
         left: 170px;
     }
+
     .focus h6 {
         font-size: 40px;
     }
+
     /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
 }
 
-@media (min-width:801px) {
+@media (min-width: 801px) {
     .focus {
         Color: #F7E9D4;
         position: absolute;
@@ -572,13 +590,15 @@ form .btn {
         top: 55px;
         left: 195px;
     }
+
     .focus h6 {
         font-size: 40px;
     }
+
     /* tablet, landscape iPad, lo-res laptops ands desktops */
 }
 
-@media (min-width:1025px) {
+@media (min-width: 1025px) {
     .focus {
         Color: #F7E9D4;
         position: absolute;
@@ -587,15 +607,18 @@ form .btn {
         top: 80px;
         left: 310px;
     }
+
     .focus h6 {
         font-size: 60px;
     }
-    .focus h6+button>a {
+
+    .focus h6 + button > a {
         font-size: 60px;
     }
+
     /* big landscape tablets, laptops, and desktops */
 }
 
-@media (min-width:1281px) {
+@media (min-width: 1281px) {
     /* hi-res laptops and desktops */
 }
