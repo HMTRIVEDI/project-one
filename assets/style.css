@@ -21,25 +21,23 @@ body {
 }
 
 .navbar-toggler {
- width: auto;
  color: #8601AF;
- padding: 0rem 0rem;
  font-size: 10vw;
  border: none;
 }
 
 .navbar-nav {
- width: auto;
  list-style: none;
 }
 
 .nav-link {
- width: 100%;
  margin-left: 40%;
  font-weight: 100;
  border-radius: 30px;
  font-size: 1.5rem;
  color: #000000;
+ -webkit-transition: font size 1s;
+ -o-transition: font size 1s;
  transition: font size 1s;
 }
 
@@ -54,21 +52,11 @@ body {
 
 /***contant style Home page***/
 
-.body {
- height: 100%;
- margin: 0;
- padding: 0;
- background-color: #F7E9D4;
- font-family: 'Mansalva', cursive;
-}
-
-/***contant style Home page***/
-
 .container-fluid {
- margin-top: 80px;
+ margin-top: 120px;
 }
 
-#food img {
+#food img {top:10px;
  width: 100%;
  height: auto;
  border-radius: 10%;
@@ -76,6 +64,67 @@ body {
  -webkit-filter: drop-shadow(10px 10px rgba(0, 0, 0, 0.1));
  filter: drop-shadow(10px 10px rgba(0, 0, 0, 0.1));
 }
+
+#food {
+ margin-top: 6vw;
+}
+
+#food img {
+ width: 100%;
+ height: auto;
+ border-radius: 30px;
+ border-style: groove;
+}
+
+.focus {
+ position: absolute;
+ height: auto;
+ top: 120px;
+ left: 10px;
+ text-align: center;
+}
+
+.focus button a {
+ font-size: 15px;
+ border-color: transparent;
+ Background-color: transparent;
+ -webkit-animation: light 1s ease-in-out infinite alternate;
+ animation: light 1s ease-in-out infinite alternate;
+}
+
+@keyframes light {
+ from {
+  text-shadow: 0 1px 10px red, 0 0 20px blue, 0 0 30px green, 0 0 40px yellow, 0 0 50px gold, 0 0 60px silver, 0 0 70px pink;
+ }
+ to {
+  text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+ }
+}
+
+.focus button a {
+ text-decoration: none;
+ color: #ffffff;
+}
+
+
+
+#about .col-sm-6 {
+ font-size: 2vw;
+ height: auto;
+ padding: 20px;
+}
+
+#about .col-sm-6 img {
+ width: 100%;
+ height: auto;
+ border-radius: 30px;
+ border-style: dashed;
+}
+
+#hero {
+ padding: 10px;
+}
+
 
 .focus button {
  border-style: none;
@@ -139,14 +188,21 @@ body {
 /********menu*******/
 
 .menu {
- margin-top: 20px;
  color: #006e47;
+ text-align: center;
+ margin: 10px 0px;
 }
 
 .menuhead {
- width: 100%;
  color: #990099;
+ font-size: 40px;
+ width: 100%;
+ margin-top: 60px;
+ margin-bottom: 20px;
+ background-color: rgba(209, 31, 102, 0.3);
+ text-align: center;
 }
+
 
 .menuhead h4 {
  font-size: 7vw;
@@ -188,245 +244,22 @@ body {
 
 /***contact**/
 
-.contact form {
- margin: 0;
-}
-
-/*join Us*/
-
-#food {
- margin-top: 6vw;
-}
-
-#food img {
- width: 100%;
- height: auto;
- border-radius: 30px;
- border-style: groove;
-}
-
-.focus {
- position: absolute;
- width: 100%;
- height: auto;
- top: 120px;
- left: 10px;
- text-align: center;
-}
-
-.focus button a {
- font-size: 15px;
- border-color: transparent;
- Background-color: transparent;
- -webkit-animation: light 1s ease-in-out infinite alternate;
- animation: light 1s ease-in-out infinite alternate;
-}
-
-@keyframes light {
- from {
-  text-shadow: 0 1px 10px red, 0 0 20px blue, 0 0 30px green, 0 0 40px yellow, 0 0 50px gold, 0 0 60px silver, 0 0 70px pink;
- }
- to {
-  text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
- }
-}
-
-.focus button a {
- text-decoration: none;
- color: #ffffff;
-}
-
-@media (min-width: 320px) {
- .focus {
-  Color: #F7E9D4;
-  position: absolute;
-  width: 50%;
-  height: auto;
-  top: 10px;
-  left: 95px;
- }
- .focus h6+button {
-  font-size: 10px;
- }
-}
-
-@media (min-width: 480px) {
- .focus {
-  Color: #F7E9D4;
-  position: absolute;
-  width: 50%;
-  height: auto;
-  top: 15px;
-  left: 125px;
- }
- .focus h6+button {
-  font-size: 15px;
- }
- /* smartphones, Android phones, landscape iPhone */
-}
-
-@media (min-width: 600px) {
- .focus {
-  Color: #F7E9D4;
-  position: absolute;
-  width: 50%;
-  height: auto;
-  top: 35px;
-  left: 170px;
- }
- .focus h6 {
-  font-size: 40px;
- }
- /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
-}
-
-@media (min-width: 801px) {
- .focus {
-  Color: #F7E9D4;
-  position: absolute;
-  width: 50%;
-  height: auto;
-  top: 55px;
-  left: 195px;
- }
- .focus h6 {
-  font-size: 40px;
- }
- /* tablet, landscape iPad, lo-res laptops ands desktops */
-}
-
-@media (min-width: 1025px) {
- .focus {
-  Color: #F7E9D4;
-  position: absolute;
-  width: 50%;
-  height: auto;
-  top: 80px;
-  left: 310px;
- }
- .focus h6 {
-  font-size: 60px;
- }
- .focus h6+button>a {
-  font-size: 60px;
- }
- /* big landscape tablets, laptops, and desktops */
-}
-
-@media (min-width: 1281px) {
- /* hi-res laptops and desktops */
-}
-
-#about .col-sm-6 {
- font-size: 2vw;
- height: auto;
- padding: 20px;
-}
-
-#about .col-sm-6 img {
- width: 100%;
- height: auto;
- border-radius: 30px;
- border-style: dashed;
-}
-
-#hero {
- padding: 10px;
-}
-
-/**** footer style***/
-
-#footer {
- padding: 0;
- bottom: 0;
- margin: 0;
- background-color: rgba(0, 0, 0, 0.8);
- width: 100%;
-}
-
-#footer .col-sm-4 H6 {
- margin: 10px;
- font-size: 14px;
- width: 100%;
- text-align: center;
- color: #00ace6;
- text-transform: uppercase;
-}
-
-#footer .col-sm-4 {
- margin-top: 10px;
- font-weight: bolder;
- font-size: 15px;
- width: 100%;
- text-align: center;
- color: #ff9999;
- letter-spacing: 1px;
- text-transform: uppercase;
-}
-
-.col-sm-4 a i {
- text-align: center;
- color: #ff9999;
-}
-
-.col-sm-4 button {
- margin: 10px;
- background-color: transparent;
- padding: 5px;
- border-radius: 10px;
-}
-
-/********menu*******/
-
-.menu{text-align: center;margin: 10px 0px;}
-.menuhead {
- font-size: 40px;
- width: 100%;
- margin-top: 60px;
- margin-bottom: 20px;
- background-color: rgba(209, 31, 102, 0.3);
- text-align: center;
-}
-
-/*offer*/
-
-.offerzone {
- background-image: url(../img/foodb.jpg);
- padding: 20px;
-}
-
-.custjumbo1 {
- background-color: white;
- padding: 20px;
-}
-
-.custjumbo2 {
- background-color: green;
- padding: 20px;
-}
-
-.custjumbo3 {
- background-color: gray;
- padding: 20px;
-}
-
-.custjumbo4 {
- background-color: skyblue;
- padding: 20px;
-}
-
-/***contact**/
-
 .contact {
  margin: 10%;
 }
 
 /*join Us*/
 
+form {
+ margin: 10px;
+ padding: 10px;
+}
+
 form .btn {
  margin-bottom: 10px;
  background-color: #A60040;
 }
+
 
 /**** footer style***/
 
@@ -464,106 +297,37 @@ form .btn {
  color: #ff9999;
 }
 
-@media (min-width: 320px) {
- .focus {
-  Color: #F7E9D4;
-  position: absolute;
-  width: 50%;
-  height: auto;
-  top: 10px;
-  left: 80px;
- }
- .focus h6+button {
-  font-size: 10px;
- }
- .offerzone {
-  padding: 20px;
- }
- .custjumbo1 {
-  background-color: red;
-  padding: 20px;
- }
- .custjumbo2 {
-  background-color: green;
-  padding: 20px;
- }
- .custjumbo3 {
-  background-color: gray;
-  padding: 20px;
- }
- .custjumbo4 {
-  background-color: skyblue;
-  padding: 20px;
- }
- /***contact**/
- .contact {
-  margin: 10%;
- }
-}
+/** Media Querry**/
 
-@media (min-width: 480px) {
+@media (min-width: 320px) {
+
+ /**index pg**/
  .focus {
   Color: #F7E9D4;
   position: absolute;
   width: 50%;
   height: auto;
   top: 15px;
-  left: 125px;
+  left: 80px;
  }
  .focus h6+button {
-  font-size: 15px;
+  font-size: 10px;
  }
+
+}
+
+@media (min-width: 480px) {
+ .focus {font-size: 20px;
+  Color: #F7E9D4;
+  position: absolute;
+  width: 50%;
+  height: auto;
+  top: 25px;
+  left: 125px;
+ }
+ .focus h6{
+  font-size: 30px;
+ }
+ .focus button a{font-size: 25px;}
  /* smartphones, Android phones, landscape iPhone */
-}
-
-@media (min-width: 600px) {
- .focus {
-  Color: #F7E9D4;
-  position: absolute;
-  width: 50%;
-  height: auto;
-  top: 35px;
-  left: 170px;
- }
- .focus h6 {
-  font-size: 40px;
- }
- /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
-}
-
-@media (min-width: 801px) {
- .focus {
-  Color: #F7E9D4;
-  position: absolute;
-  width: 50%;
-  height: auto;
-  top: 55px;
-  left: 195px;
- }
- .focus h6 {
-  font-size: 40px;
- }
- /* tablet, landscape iPad, lo-res laptops ands desktops */
-}
-
-@media (min-width: 1025px) {
- .focus {
-  Color: #F7E9D4;
-  position: absolute;
-  width: 50%;
-  height: auto;
-  top: 80px;
-  left: 310px;
- }
- .focus h6 {
-  font-size: 60px;
- }
- .focus h6+button>a {
-  font-size: 60px;
- }
- /* big landscape tablets, laptops, and desktops */
-}
-
-@media (min-width: 1281px) {
- /* hi-res laptops and desktops */
 }
