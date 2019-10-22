@@ -2,53 +2,11 @@
 
 
 
-@media (min-width: 600px) {
- .focus {
-  Color: #F7E9D4;
-  position: absolute;
-  width: 50%;
-  height: auto;
-  top: 35px;
-  left: 170px;
- }
- .focus h6 {
-  font-size: 40px;
- }
- /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
-}
 
-@media (min-width: 801px) {
- .focus {
-  Color: #F7E9D4;
-  position: absolute;
-  width: 50%;
-  height: auto;
-  top: 55px;
-  left: 195px;
- }
- .focus h6 {
-  font-size: 40px;
- }
- /* tablet, landscape iPad, lo-res laptops ands desktops */
-}-
 
-@media (min-width: 1025px) {
- .focus {
-  Color: #F7E9D4;
-  position: absolute;
-  width: 50%;
-  height: auto;
-  top: 80px;
-  left: 310px;
- }
- .focus h6 {
-  font-size: 60px;
- }
- .focus h6+button>a {
-  font-size: 60px;
- }
- /* big landscape tablets, laptops, and desktops */
-}
+
+
+
 
 @media (min-width: 1281px) {
  /* hi-res laptops and desktops */
