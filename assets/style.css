@@ -206,10 +206,11 @@ video {
 
 }
 
-#midcover {
- background-image:url(bg2.jpg);
+.midcover {margin: 0;
+ background-image:url("img/bg2.jpg");
+ background-position: center;background-repeat: no-repeat;background-size: cover;
  width: 100%;
- height: 100%;
+ height: 400px;
 }
 
 /********menu*******/
