@@ -213,6 +213,7 @@ body {
 }
 
 video {
+ padding-top: 10px;
  background-color: black;
  width: 100%;
 
@@ -315,8 +316,19 @@ video {
 
 /***contact**/
 
-.contact {
+#contact {
  margin: 10%;
+ padding-top: 15%
+}
+
+#contact .h4 {
+ border-radius: 10px;
+ background-color: rgba(0, 200, 0, 0.1);
+}
+
+iframe {
+ height: 100%;
+ width: 100%;
 }
 
 /*join Us*/
@@ -488,6 +500,12 @@ form .btn {
   text-align: justify;
  }
 
+ #contact .h4 {
+  font-size: 20px;
+  border-radius: 10px;
+  background-color: rgba(0, 200, 0, 0.1);
+ }
+
 }
 
 /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
@@ -569,6 +587,16 @@ form .btn {
 
  .midcover .h1 {
   font-size: 20px;
+ }
+
+ #contact {
+  margin: 5%;
+  padding-top: 5%;
+ }
+ #contact .h4 {
+  font-size: 40px;
+  border-radius: 10px;
+  background-color: rgba(0, 200, 0, 0.1);
  }
  /* big landscape tablets, laptops, and desktops */
 }
