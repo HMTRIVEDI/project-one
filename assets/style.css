@@ -207,6 +207,7 @@ body {
 }
 
 #frontcover {
+ background-color: #000000;
  padding: 0px;
  margin: 0px;
 }
@@ -387,18 +388,20 @@ form .btn {
 
 
 
- .midcover-p1 {margin-top: 40px;
+ .midcover-p1 {
+  margin-top: 40px;
   padding: 20px 20px;
   text-align: center;
   font-size: 10px;
  }
- 
- .midcover-p1 .h1 {font-size:20px;
+
+ .midcover-p1 .h1 {
+  font-size: 20px;
   color: red;
   animation: flash 1s infinite
  }
 
- 
+
  .midcover-p1 .h5 {
   color: #ff80ff;
   line-height: 20px;
@@ -433,13 +436,14 @@ form .btn {
   animation: flash 1s infinite
  }
 
- 
+
  .midcover-p1 .h5 {
   color: #ff80ff;
   line-height: 40px;
- } 
- 
-/* smartphones, Android phones, landscape iPhone */ }
+ }
+
+ /* smartphones, Android phones, landscape iPhone */
+}
 
 
 
@@ -488,7 +492,6 @@ form .btn {
 
 /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
 
-
 @media (min-width: 801px) {
  .focus {
   Color: #F7E9D4;
@@ -525,7 +528,8 @@ form .btn {
   font-size: 20px;
  }
 
- .midcover-p1 .h1 {font-size: 40px;
+ .midcover-p1 .h1 {
+  font-size: 40px;
   color: red;
   animation: flash 1s infinite
  }
@@ -536,58 +540,62 @@ form .btn {
   text-align: justify;
  }
 }
- /* tablet, landscape iPad, lo-res laptops ands desktops */
- @media (min-width: 1025px) {
-  .focus {
-   Color: #F7E9D4;
-   position: absolute;
-   width: 50%;
-   height: auto;
-   top: 50px;
-   left: 250px;
-  }
-  .focus h6 {
-   font-size: 60px;
-  }
-  .focus h6+button>a {
-   font-size: 60px;
-  }
-  .store {
-   padding-top: 30px;
-  }
 
-  .navbar-nav {
-   margin-left: 20%;
-   list-style: none;
-  }
-  
-  .midcover .h1{font-size: 20px;}
-  /* big landscape tablets, laptops, and desktops */
+/* tablet, landscape iPad, lo-res laptops ands desktops */
+
+@media (min-width: 1025px) {
+ .focus {
+  Color: #F7E9D4;
+  position: absolute;
+  width: 50%;
+  height: auto;
+  top: 50px;
+  left: 250px;
+ }
+ .focus h6 {
+  font-size: 60px;
+ }
+ .focus h6+button>a {
+  font-size: 60px;
+ }
+ .store {
+  padding-top: 30px;
  }
 
-
- @media (min-width: 1281px) {
-  .focus {
-   Color: #F7E9D4;
-   position: absolute;
-   width: 50%;
-   height: auto;
-   top: 70px;
-   left: 320px;
-  }
-  .focus h6 {
-   font-size: 60px;
-  }
-  .focus h6+button>a {
-   font-size: 60px;
-  }
-  .store {
-   padding-top: 30px;
-  }
-
-  .navbar-nav {
-   margin-left: 30%;
-   list-style: none;
-  }
-  /* hi-res laptops and desktops */
+ .navbar-nav {
+  margin-left: 20%;
+  list-style: none;
  }
+
+ .midcover .h1 {
+  font-size: 20px;
+ }
+ /* big landscape tablets, laptops, and desktops */
+}
+
+
+@media (min-width: 1281px) {
+ .focus {
+  Color: #F7E9D4;
+  position: absolute;
+  width: 50%;
+  height: auto;
+  top: 70px;
+  left: 320px;
+ }
+ .focus h6 {
+  font-size: 60px;
+ }
+ .focus h6+button>a {
+  font-size: 60px;
+ }
+ .store {
+  padding-top: 30px;
+ }
+
+ .navbar-nav {
+  margin-left: 30%;
+  list-style: none;
+ }
+ /* hi-res laptops and desktops */
+}
