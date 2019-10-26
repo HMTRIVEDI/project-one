@@ -333,6 +333,63 @@ iframe {
 
 /*join Us*/
 
+.believe {
+ margin-top: 18%;
+ padding: 0;
+}
+
+.moto {filter: opacity(5px);
+ margin: 0;
+ padding: 5%;
+ background-color: #EBEBEB;
+ color: #9BD770;
+}
+
+.moto .h1 {
+ text-align: center;
+ font-size: 30px!important;
+ text-transform: capitalize;
+ text-shadow: 5px 5px 20px;
+}
+
+.moto-p1 {margin: 0;
+ background-size: cover;
+ background-image: url("img/oldpaper.jpg");
+ padding: 5%;
+ text-align: justify;
+}
+
+.moto-p1 .lead {
+ font-size: 30px;
+ text-align: center;
+}
+
+.moto-p1 .subtext {
+ font-size: 20px;
+ color: #340933;
+}
+
+.moto-p2 {margin: 0;
+ background-color: #cc9966;
+ padding: 5% 5%;
+}
+
+.moto-p2 .col-sm-4 {
+ padding: 10px 10px;
+ text-align: center;
+}
+
+.moto-p3 {margin:0;
+ background-size: cover;
+ background-image: url("img/oldpaper.jpg");
+ background-color: #E2FFCC!important;
+ padding: 20px 40px;
+}
+
+.moto-p3 .h3 {
+ text-align: center;
+ color: #340933;
+}
 
 
 /**** footer style***/
@@ -492,6 +549,7 @@ iframe {
  }
 
  #contact .h4 {
+  text-align: center;
   font-size: 20px;
   border-radius: 10px;
   background-color: rgba(0, 200, 0, 0.1);
