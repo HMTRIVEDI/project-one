@@ -765,9 +765,44 @@ iframe {
 
 
 @media (min-width: 1281px) {
- .navbar-nav {
-  margin-left: 310px;
+ 
+ .navbar-light .navbar-brand {
+  padding: 5px;
  }
+
+
+ .navbar-toggler {
+  padding: 5px 10px;
+  color: #8601AF;
+  font-size: 10vw;
+  border: none;
+ }
+
+ .navbar-light .navbar-collapse {border-bottom-left-radius: 200px;
+  background-color: rgb(0, 153, 51);border-left: 5px groove green; margin-left: 30px;
+ }
+ 
+  .navbar-nav {border-radius: 100px;
+ text-align: center;
+ margin-left: 100px;
+ list-style: none;
+}
+ .nav-item{padding: 5px 10px;margin: 5px;}
+ 
+
+
+ .bg-light {
+  padding: 0%;
+  background-color: rgba(255, 224, 102,0.5) !important;
+ }
+ 
+ .nav-link {
+ font-size: 40PX;}
+ 
+ .container-fluid {
+    padding: 0;
+    margin-top: 100px;
+ 
  .focus {
   Color: #F7E9D4;
   position: absolute;
@@ -786,10 +821,6 @@ iframe {
   padding-top: 30px;
  }
 
- .navbar-nav {
-  margin-left: 30%;
-  list-style: none;
- }
 
  .moto .h1 {
   margin-top: 0px;
