@@ -63,7 +63,8 @@ body {
  color: #9A0794!important;
  border-radius: 30px;
  display: block;
- animation-timing-function: ease-in-out 2s;
+ -webkit-animation-timing-function: ease-in-out 2s;
+         animation-timing-function: ease-in-out 2s;
 }
 
 
@@ -254,7 +255,20 @@ video {
 
 .midcover-p1 .h1 {
  color: red;
- animation: flash 1s infinite
+ -webkit-animation: flash 1s infinite;
+         animation: flash 1s infinite
+}
+
+@-webkit-keyframes flash {
+ 0% {
+  opacity: 1.00;
+ }
+ 50% {
+  opacity: 0.0;
+ }
+ 100% {
+  opacity: 1.0;
+ }
 }
 
 @keyframes flash {
@@ -347,7 +361,8 @@ iframe {
 }
 
 .moto {
- filter: opacity(5px);
+ -webkit-filter: opacity(5px);
+         filter: opacity(5px);
  margin: 0;
  padding: 5%;
  background-color: #EBEBEB;
@@ -459,6 +474,8 @@ iframe {
  .nav-link {
   font-size: 5vw;
   border-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   padding: 0.5rem 5rem;
   color: #ffffff!important;
@@ -492,7 +509,8 @@ iframe {
  .midcover-p1 .h1 {
   font-size: 20px;
   color: red;
-  animation: flash 1s infinite
+  -webkit-animation: flash 1s infinite;
+          animation: flash 1s infinite
  }
 
 
@@ -527,7 +545,8 @@ iframe {
  }
  .midcover-p1 .h1 {
   color: red;
-  animation: flash 1s infinite
+  -webkit-animation: flash 1s infinite;
+          animation: flash 1s infinite
  }
 
 
@@ -578,7 +597,8 @@ iframe {
  }
  .midcover-p1 .h1 {
   color: red;
-  animation: flash 1s infinite
+  -webkit-animation: flash 1s infinite;
+          animation: flash 1s infinite
  }
 
  .midcover-p1 .h5 {
@@ -605,6 +625,15 @@ iframe {
 /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
 
 @media (min-width: 801px) {
+ .moto .h1 {
+  margin-top: 10px;
+  padding-top: 8px;
+  margin-bottom: 0px;
+  text-align: center;
+  font-size: 70px!important;
+  text-transform: capitalize;
+  text-shadow: 5px 5px 20px;
+ }
  .focus {
   Color: #F7E9D4;
   position: absolute;
@@ -643,7 +672,8 @@ iframe {
  .midcover-p1 .h1 {
   font-size: 40px;
   color: red;
-  animation: flash 1s infinite
+  -webkit-animation: flash 1s infinite;
+          animation: flash 1s infinite
  }
 
  .midcover-p1 .h5 {
@@ -653,15 +683,7 @@ iframe {
  }
 }
 
-.moto .h1 {
- margin-top: 10px;
- padding-top: 8px;
- margin-bottom: 0px;
- text-align: center;
- font-size: 70px!important;
- text-transform: capitalize;
- text-shadow: 5px 5px 20px;
-}
+
 
 /* tablet, landscape iPad, lo-res laptops ands desktops */
 
@@ -808,9 +830,9 @@ iframe {
 
  .container-fluid {
   padding: 0;
-  margin-top: 100px;
+  margin-top: 100px;}
 
-  .focus {
+  .focus{
    Color: #F7E9D4;
    position: absolute;
    width: 50%;
