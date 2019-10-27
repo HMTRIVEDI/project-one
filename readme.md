@@ -57,3 +57,4 @@ The photos used in this site were obtained from Adobe Stock.
 all section ware desined with bootstrap.
 Acknowledgements
 I received inspiration for this project from sites of Burgerking,Subway,Mcdonalds, Amarican Diner,
+Photo by Daniel Hjalmarsson on Unsplash

@@ -9,6 +9,7 @@ body {
  padding: 0;
  background: rgba(243, 226, 199, 1);
  font-family: 'Mansalva', cursive;
+ overflow: scroll;
 }
 
 /*navigation bar style*/
@@ -276,28 +277,19 @@ video {
 /********menu*******/
 
 .menu {
+ background-image: url("img/oldpaper.jpg");
+ background-size: cover;
  color: #006e47;
  text-align: center;
- margin: 10px 0px;
-}
-
-.menuhead {
- color: #990099;
- font-size: 40px;
- width: 100%;
- margin-top: 60px;
- margin-bottom: 20px;
- background-color: rgba(209, 31, 102, 0.3);
- text-align: center;
+ margin-top: 20px;
 }
 
 
-.menuhead h4 {
- font-size: 7vw;
-}
 
-.col-sm-6 {
- color: #006e47;
+
+
+.bg-trans {
+ background-color: rgba(349, 0, 0, .2);
 }
 
 /*offer*/
@@ -688,7 +680,7 @@ iframe {
 
  .navbar-light .navbar-collapse {
   border-bottom-left-radius: 200px;
- 
+
   background-color: rgb(0, 153, 51);
   border-left: 5px groove green;
   margin-left: 50px;
