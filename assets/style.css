@@ -48,7 +48,7 @@ body {
 }
 
 .nav-link {
- font-size: px;
+ font-size: 10px;
  border-radius: 30px;
  display: block;
  padding: 0.5rem 5rem;
@@ -56,15 +56,6 @@ body {
  -webkit-transition: background-color 1s;
  -o-transition: background-color 1s;
  transition: background-color 1s;
-}
-
-.nav-link:hover {
- background-color: #ffffff;
- color: #9A0794!important;
- border-radius: 30px;
- display: block;
- -webkit-animation-timing-function: ease-in-out 2s;
- animation-timing-function: ease-in-out 2s;
 }
 
 
@@ -461,7 +452,7 @@ iframe {
 @media (min-width: 320px) {
 
  .navbar-nav {
-  margin-left: 0%;
+  margin-left: 25%;
   list-style: none;
  }
 
@@ -750,6 +741,15 @@ iframe {
  .nav-link {
   font-size: 30PX;
  }
+ .nav-link:hover {font-size: 30PX;
+ background-color: #ffffff;
+ color: #9A0794!important;
+ border-radius: 30px;
+ display: block;
+ -webkit-animation-timing-function: ease-in-out 4s;
+ animation-timing-function: ease-in-out 4s;
+}
+ 
 
  .focus {
   Color: #F7E9D4;
@@ -853,6 +853,15 @@ iframe {
  .nav-link {
   font-size: 40PX;
  }
+ .nav-link:hover {font-size: 40PX;
+ background-color: #ffffff;
+ color: #9A0794!important;
+ border-radius: 30px;
+ display: block;
+ -webkit-animation-timing-function: ease-in-out 4s;
+ animation-timing-function: ease-in-out 4s;
+}
+
 
  .container-fluid {
   padding: 0;
