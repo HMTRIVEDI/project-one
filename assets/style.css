@@ -8,8 +8,9 @@ body {
  margin: 0;
  padding: 0;
  background: rgba(243, 226, 199, 1);
- font-family: 'Mansalva', cursive;
+ font-family: 'McLaren', cursive;
  overflow: scroll;
+ text-transform: capitalize;
 }
 
 /*navigation bar style*/
@@ -47,7 +48,7 @@ body {
  padding: 5px 30px;
 }
 
-.nav-link {
+.nav-link {text-transform: capitalize;
  font-size: 10px;
  border-radius: 30px;
  display: block;
