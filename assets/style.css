@@ -98,14 +98,6 @@ body {
  border-style: groove;
 }
 
-.focus {
- position: absolute;
- height: auto;
- top: 120px;
- left: 100px;
- text-align: center;
-}
-
 #about .col-sm-6 P {
  font-size: 1vw;
  height: auto;
@@ -119,21 +111,36 @@ body {
  border-style: dashed;
 }
 
+.focus {
+ font-size: 20px;
+ Color: #F7E9D4;
+ position: absolute;
+ width: 50%;
+ height: auto;
+ top: 25px;
+ left: 70px;
+}
 
+.focus h6 {
+ font-size: 15px;
+ text-align: center;
+}
 
 .focus button {
  border-style: none;
- font-size: 15px;
  border-color: transparent;
  Background-color: transparent;
  -webkit-animation: light 1s ease-in-out infinite alternate;
  animation: light 1s ease-in-out infinite alternate;
 }
 
+.focus button a {
+ font-size: 10px;
+}
 
 @keyframes light {
  from {
- text-shadow: 0 0 10px #000, 0 0 20px #ffcc00, 0 0 30px #ffcc00, 0 0 40px #ffcc00, 0 0 50px #ffcc00, 0 0 60px #ffcc00, 0 0 70px #ffcc00;
+  text-shadow: 0 0 10px #000, 0 0 20px #ffcc00, 0 0 30px #ffcc00, 0 0 40px #ffcc00, 0 0 50px #ffcc00, 0 0 60px #ffcc00, 0 0 70px #ffcc00;
  }
  to {
   text-shadow: 0 0 20px #000, 0 0 30px #ffcc00, 0 0 40px #ffcc00, 0 0 50px #ffcc00, 0 0 60px #ffcc00, 0 0 70px #ffcc00, 0 0 80px #ffcc00;
@@ -163,14 +170,6 @@ body {
  color: #34090C;
 }
 
-.focus {
- position: absolute;
- width: 100%;
- height: auto;
- top: 120px;
- left: 10px;
- text-align: center;
-}
 
 .carousel-caption {
  font-size: 2vw;
@@ -260,10 +259,6 @@ video {
  margin-top: 35px;
 }
 
-
-
-
-
 .bg-trans {
  background-color: rgba(349, 0, 0, .2);
 }
@@ -271,18 +266,16 @@ video {
 /*offer*/
 
 .offerzone {
- padding: 20px;
+ padding: 20px 5px;
 }
 
-.offer1 {
+
+.offerzone .row {
  padding-top: 10px;
 }
 
-.offer2 {
- padding-top: 10px;
-}
-
-.card-img-overlay {background-color: rgba(0,100,0,0.5);
+.card-img-overlay {
+ background-color: rgba(0, 100, 0, 0.5);
 }
 
 .custjumbo3 {
@@ -302,7 +295,7 @@ video {
  padding-top: 15%
 }
 
-#contact .h4 {
+#contact .h5 {
  border-radius: 10px;
  background-color: rgba(0, 200, 0, 0.1);
 }
@@ -416,8 +409,13 @@ iframe {
  color: #ff9999;
 }
 
-#socialmedia a{padding-left: 20px;}
-#opening p{padding-left: 20px;}
+#socialmedia a {
+ padding-left: 20px;
+}
+
+#opening p {
+ padding-left: 20px;
+}
 
 /** Media Querry**/
 
@@ -449,19 +447,23 @@ iframe {
 
  /**index pg**/
  .focus {
+  text-align: center;
+  font-size: 20px;
   Color: #F7E9D4;
   position: absolute;
   width: 50%;
   height: auto;
   top: 15px;
-  left: 100px;
+  left: 90px;
  }
- .focus h6+button {
+
+ .focus lead {
+  font-size: 20px;
+ }
+
+ .focus button a {
   font-size: 10px;
  }
-
-
-
  .midcover-p1 {
   margin-top: 40px;
   padding: 20px 20px;
@@ -489,23 +491,36 @@ iframe {
   margin-top: 70px;
  }
 
+ #contact {
+  margin-top: 50px;
+ }
+
 }
 
 @media (min-width: 480px) {
+
+ #contact {
+  margin-top: 40px;
+ }
+
+
  .focus {
+  text-align: center;
   font-size: 20px;
   Color: #F7E9D4;
   position: absolute;
   width: 50%;
   height: auto;
-  top: 25px;
-  left: 125px;
+  top: 20px;
+  left: 120px;
  }
- .focus h6 {
+
+ .focus .lead {
   font-size: 30px;
  }
+
  .focus button a {
-  font-size: 25px;
+  font-size: 20px;
  }
 
  .midcover-p1 {
@@ -513,6 +528,7 @@ iframe {
   text-align: center;
   font-size: 10px;
  }
+
  .midcover-p1 .h1 {
   color: red;
   -webkit-animation: flash 1s infinite;
@@ -525,6 +541,10 @@ iframe {
   line-height: 40px;
  }
 
+ #contact {
+  margin-top: 5%;
+ }
+
  .believe {
   margin-top: 70px;
   padding: 0;
@@ -534,24 +554,34 @@ iframe {
 
   margin-top: 70px;
  }
-
- /* smartphones, Android phones, landscape iPhone */
 }
 
-
-
+/* smartphones, Android phones, landscape iPhone */
 
 @media (min-width: 600px) {
+
  .focus {
+  text-align: center;
+  font-size: 20px;
   Color: #F7E9D4;
   position: absolute;
   width: 50%;
   height: auto;
-  top: 35px;
+  top: 40px;
   left: 160px;
  }
- .focus h6 {
-  font-size: 40px;
+
+ .focus .lead {
+  font-size: 30px;
+ }
+
+ .focus button a {
+  font-size: 20px;
+ }
+
+
+ .card-columns {
+  column-count: 1;
  }
 
  #about .col-sm-6 .H4 {
@@ -568,7 +598,7 @@ iframe {
  .midcover-p1 {
   padding: 20px 40px;
   text-align: center;
-  font-size: 20px;
+  font-size: 15px;
  }
  .midcover-p1 .h1 {
   color: red;
@@ -582,9 +612,19 @@ iframe {
   text-align: justify;
  }
 
- #contact .h4 {
+ .display-4 {
+  font-size: 3rem;
+  font-weight: 300;
+  line-height: 1.2;
+ }
+
+ #contact {
+  margin-top: 2%;
+ }
+
+ #contact h5 {
   text-align: center;
-  font-size: 20px;
+  font-size: 1.0rem;
   border-radius: 10px;
   background-color: rgba(0, 200, 0, 0.1);
  }
@@ -604,6 +644,10 @@ iframe {
 /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
 
 @media (min-width: 801px) {
+
+ .card-columns {
+  column-count: 2;
+ }
  .menu {
 
   margin-top: 90px;
@@ -618,15 +662,28 @@ iframe {
   text-shadow: 5px 5px 20px;
  }
  .focus {
+  text-align: center;
+  font-size: 20px;
   Color: #F7E9D4;
   position: absolute;
   width: 50%;
   height: auto;
-  top: 55px;
-  left: 195px;
+  top: 40px;
+  left: 200px;
  }
- .focus h6 {
-  font-size: 40px;
+
+ .focus .lead {
+  font-size: 50px;
+ }
+ 
+ .display-4 {
+  font-size: 4rem;
+  font-weight: 300;
+  line-height: 1.2;
+ }
+
+ .focus button a {
+  font-size: 30px;
  }
 
  .teg {
@@ -649,7 +706,7 @@ iframe {
  .midcover-p1 {
   padding: 20px 60px;
   text-align: center;
-  font-size: 20px;
+  font-size: 15px;
  }
 
  .midcover-p1 .h1 {
@@ -671,6 +728,9 @@ iframe {
 /* tablet, landscape iPad, lo-res laptops ands desktops */
 
 @media (min-width: 1025px) {
+ .card-columns {
+  column-count: 2;
+ }
  .menu {
 
   margin-top: 82px;
@@ -733,9 +793,9 @@ iframe {
   width: 50%;
   height: auto;
   top: 50px;
-  left: 250px;
+  left: 280px;
  }
- .focus h6 {
+ .focus .lead {
   font-size: 50px;
  }
  .focus h6+button>a {
@@ -761,8 +821,15 @@ iframe {
  }
 
  .offerzone {
-  margin-top: 20%;
+  margin-top: 5%;
  }
+
+ .display-4 {
+  font-size: 4rem;
+  font-weight: 300;
+  line-height: 1.2;
+ }
+
 
 
  .moto-p1 {
@@ -785,7 +852,7 @@ iframe {
   padding: 10px;
  }
 
- .container-fluid {
+ .menu {
   padding: 0;
   margin-top: 70px;
  }
@@ -794,6 +861,9 @@ iframe {
 
 
 @media (min-width: 1281px) {
+ .card-columns {
+  column-count: 3;
+ }
 
  .menu {
 
@@ -851,7 +921,7 @@ iframe {
  }
 
 
- .container-fluid {
+ .menu {
   padding: 0;
   margin-top: 80px;
  }
@@ -862,9 +932,9 @@ iframe {
   width: 50%;
   height: auto;
   top: 70px;
-  left: 320px;
+  left: 340px;
  }
- .focus h6 {
+ .focus lead {
   font-size: 60px;
  }
  .focus h6+button>a {
@@ -874,13 +944,19 @@ iframe {
   padding-top: 30px;
  }
 
-.offer1 {
- padding-top: 40px;
-}
+ .offer1 {
+  padding-top: 40px;
+ }
+ .display-4 {
+  font-size: 5rem;
+  font-weight: 300;
+  line-height: 1.2;
+ }
 
-.offer2 {
- padding-top: 40px;
-}
+
+ .offer2 {
+  padding-top: 40px;
+ }
  .moto .h1 {
   margin-top: 0px;
   padding-top: 10px;
@@ -889,6 +965,9 @@ iframe {
   font-size: 120px!important;
   text-transform: capitalize;
   text-shadow: 5px 5px 20px;
+ }
+ #contact {
+  margin-top: 40px;
  }
  /* hi-res laptops and desktops */
 }
