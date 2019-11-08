@@ -6,28 +6,40 @@ This website present a work done for first milestone project , web site is for a
 ## Website Requirement 
 
 ### User Stories 
+User should be able to navigate in website with ease and wondering where to look, all option should be visible and communicate it’s purpose.
+•	User want to know about company
+•	User want to know what food does restaurant offer
+•	User want to know where to find restaurant, 
+•	User want to do booking, complain or give suggestions.
+•	User want to know about company’s beliefs and contribution to society .
+•	User want to know about restaurant working hours.
+•	User want to work with company.
+
 ### UX
+Website shall contain 5 page which represent 7 section of website
+1.	Header: Fix Navigation Bar shows different link for navigate in website.
+2.	Home (Index.html) : Basic information about company , some highlight about menu and offer
+3.	Menu (menu.html): Information about the Food Menu.
+4.	Offer zone (offerzone.html): Information About offers
+5.	Contact (contact.html): Web inquiry form & Location Map(Google Map)
+6.	What We Believe (believe.html):Information About company values & what there customer & Employee think about company
+7.	Footer: information about Address , opening Hours, Social media Links And version.
 ### Wireframe 
-
-
-## Features
 
 ### Current Features
 
 - website provide Information About The Menu
-- It Have OfferZone where User Can find out about diffrent Offers
-- Contact page have form which can be used for Booking, and complain etc
-- Also Having map which give location of stor.
+- It Have Offer Zone where User Can find out about different Offers
+- Contact page have form which can be used for Booking, and complain, suggestions
+- Also Having map which give location of store.
+- on home page it have motivating section which will motivate user to navigate in offer zone and explore the menu.
 
-
-## Features Left to Implement:
+### Features Left to Implement:
 
 Planning to implement following Features
-
 -online food ordering
 -online payment
--social media pages
-
+- Improvement In booking System.
 
 ## Technologies Used:
 
@@ -47,8 +59,15 @@ font awesome used for Social Media Icons
 ### Google Font 
 https://fonts.google.com/specimen/McLaren
 font-family: 'McLaren', cursive;
+### AWS
+Project Developed in AWS Cloud 9 Environment.
+### Logo Maker
+https://logomakr.com/
+### Favicon Generator
+https://www.favicon-generator.org/
+ 
 
-## Testing:
+##Testing:
 ### Testing tools
 ### Testing Screenshot
 ### Function Testing
@@ -56,6 +75,12 @@ font-family: 'McLaren', cursive;
 ## Credits
 
 ### Media
+All Images are used from Adobe Stock.
 ### Content
+For Menu Content inspiration took from  Wendy’s , Burger king, Mc Donald’s 
 ### Acknowledgement 
+Acknowledgment to 
+•	Rahul Patil
+•	https://css-tricks.com/
+•	https://www.w3schools.com/
 
