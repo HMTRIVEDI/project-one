@@ -24,7 +24,9 @@ Website shall contain 5 page which represent 7 section of website
 5.	Contact (contact.html): Web inquiry form & Location Map(Google Map)
 6.	What We Believe (believe.html):Information About company values & what there customer & Employee think about company
 7.	Footer: information about Address , opening Hours, Social media Links And version.
+
 ### Wireframe 
+     ![Wireframe](assets/img/Wireframe.ppt?raw=true "Title")
 
 ### Current Features
 
