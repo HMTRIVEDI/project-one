@@ -65,23 +65,23 @@ Bootstrap is used for following component.
 
 ### Font Awesome v 5.11.2
 https://fontawesome.com/icons
-font awesome used for Social Media Icons
+font awesome used for Social Media & Menu Icons
 1.	Facebook
 2.	You tube
-3.	Twitter 
+3.	Twitter
 
 ### Google Font 
-https://fonts.google.com/specimen/McLaren
-font-family: 'McLaren', cursive;
+- https://fonts.google.com/specimen/McLaren
+- font-family: 'McLaren', cursive;
 
 ### AWS
-Project Developed in AWS Cloud 9 Environment.
+- Project Developed in AWS Cloud 9 Environment.
 
 ### Logo Maker
-https://logomakr.com/
+- https://logomakr.com/
 
 ### Favicon Generator
-https://www.favicon-generator.org/
+- https://www.favicon-generator.org/
  
 
 ## Testing
@@ -124,12 +124,15 @@ Testing is Done on following Devices/Browsers
    4. On Home Page “Are you ready for Halloween fest should have blink effect”
 
 ## Deployment
+
 This Website is Deployed on GitHub Pages. And deployed using AWS Cloud 9 using terminal window to Github.
 
 ### Deployment Steps
+
 1.	In terminal window use (git add.) command  to add files to the directory
 2.	Use ( git commit -m “ text” ) and commit the changes and updates 
 3.	Then to deployment (git Push) Command to push the files to the GitHub pages.
+
 All version are in master branch
 
 ## Credits
@@ -140,7 +143,8 @@ All Images are used from Adobe Stock free license version.
 For Menu Content inspiration took from Wendy’s , Burger king, Mc Donald’s 
 ### Acknowledgement 
 Acknowledgment to following in this project
-•	Rahul Patil
-•	https://css-tricks.com/
-•	https://www.w3schools.com/
+
+-Rahul Patil
+-https://css-tricks.com/
+-https://www.w3schools.com/
 
