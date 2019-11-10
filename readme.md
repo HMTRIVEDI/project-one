@@ -47,49 +47,99 @@ Website shall contain 5 page which represent 7 section of website
 ### Features Left to Implement:
 
 Planning to implement following Features
+
 -online food ordering
 -online payment
-- Improvement In booking System.
+-Improvement In booking System.
 
 ## Technologies Used:
 
 Project Made Using following tech.
+
 ### Bootstrap v 4.3.1
 Bootstrap is used for following component.
 1.	Grid Layout
 2.	Navbar
 3.	Card Columns 
 4.	Form
+
 ### Font Awesome v 5.11.2
 https://fontawesome.com/icons
 font awesome used for Social Media Icons
 1.	Facebook
 2.	You tube
 3.	Twitter 
+
 ### Google Font 
 https://fonts.google.com/specimen/McLaren
 font-family: 'McLaren', cursive;
+
 ### AWS
 Project Developed in AWS Cloud 9 Environment.
+
 ### Logo Maker
 https://logomakr.com/
+
 ### Favicon Generator
 https://www.favicon-generator.org/
  
 
-##Testing:
-### Testing tools
+## Testing
+### Tools
+Testing is Done on following Devices/Browsers
+- Desktop 
+   - Chrome
+   - Mozilla
+   - Safari
+- Iphone X
+- Huawei p9 lite
+
 ### Testing Screenshot
 ### Function Testing
+- Test: fix Navbar Navigation
+   1. Open website
+   2. Click on Home Link
+   3. Click on Menu Link see if Nav bar is in fix position.
+   4. Click on Offer Zone link see if page load
+   5. Click on Contact link see if page load
+   6. Click on What We Believe link see if page load
+   
+ - Test: Social Media Link
+   1. Scroll down To Footer
+   2. Click on Social Media icon Facebook , YouTube , Twitter 
+   3. See if relevant page load in different tab on click.
+   
+ - Test: Write To Us Form
+   - Test: Form Validator 
+    1. Click on submit button.
+    2. See if text appears “Field Required “ ( Valid Email, Comment,
+    3. Try to fill valid Details and then Submit again.
+  - Test: Map Working
+    1. See if map Load 
+    2. Click on Map See if it open in different tab.
+  - Test: Animation on Home Page
+   1. Move Mouse on different links in Navbar.
+   2. On Hover Background of Link And Font color Should change.
+   3. On Home Page  “Check Menu now “ should have aura effect and should blink.
+   4. On Home Page “Are you ready for Halloween fest should have blink effect”
+
+## Deployment
+This Website is Deployed on GitHub Pages. And deployed using AWS Cloud 9 using terminal window to Github.
+
+### Deployment Steps
+1.	In terminal window use (git add.) command  to add files to the directory
+2.	Use ( git commit -m “ text” ) and commit the changes and updates 
+3.	Then to deployment (git Push) Command to push the files to the GitHub pages.
+All version are in master branch
 
 ## Credits
 
 ### Media
-All Images are used from Adobe Stock.
+All Images are used from Adobe Stock free license version.
 ### Content
-For Menu Content inspiration took from  Wendy’s , Burger king, Mc Donald’s 
+For Menu Content inspiration took from Wendy’s , Burger king, Mc Donald’s 
 ### Acknowledgement 
-Acknowledgment to 
+Acknowledgment to following in this project
 •	Rahul Patil
 •	https://css-tricks.com/
 •	https://www.w3schools.com/
