@@ -26,7 +26,15 @@ Website shall contain 5 page which represent 7 section of website
 7.	Footer: information about Address , opening Hours, Social media Links And version.
 
 ### Wireframe 
-     ![Wireframe](assets/img/Wireframe.ppt?raw=true "Title")
+   ![wirefrem](assets/img/Slide1.GIF)
+   
+   ![wirefrem](assets/img/Slide2.GIF)
+   
+![wirefrem](assets/img/Slide3.GIF)
+
+![wirefrem](assets/img/Slide4.GIF)
+
+
 
 ### Current Features
 
