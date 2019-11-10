@@ -26,8 +26,8 @@ Website shall contain 5 page which represent 7 section of website
 7.	Footer: information about Address , opening Hours, Social media Links And version.
 
 ### Wireframe 
-     ![Wireframe](assets/img/Wireframe.ppt?raw=true "Title")
-
+![wireframe](assets/img/dip.jpg)
+<img src="assets/img/dip.jpg" alt="wireframe">
 ### Current Features
 
 - website provide Information About The Menu
@@ -52,19 +52,24 @@ Bootstrap is used for following component.
 2.	Navbar
 3.	Card Columns 
 4.	Form
+
 ### Font Awesome v 5.11.2
 https://fontawesome.com/icons
 font awesome used for Social Media Icons
 1.	Facebook
 2.	You tube
 3.	Twitter 
+
 ### Google Font 
 https://fonts.google.com/specimen/McLaren
 font-family: 'McLaren', cursive;
+
 ### AWS
 Project Developed in AWS Cloud 9 Environment.
+
 ### Logo Maker
 https://logomakr.com/
+
 ### Favicon Generator
 https://www.favicon-generator.org/
  
