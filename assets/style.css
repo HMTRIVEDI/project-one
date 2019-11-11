@@ -385,11 +385,11 @@ iframe {
 #footer {
  text-align: center;
  padding: 0%;
- bottom: 0%;
+ bottom: 0;
  margin: 0%;
  background-color: rgba(0, 0, 0, 0.8);
  width: 100%;
- position: relative;
+ position: static;
 }
 
 #footer .col-sm-4 H6 {
@@ -506,7 +506,7 @@ iframe {
 
 }
 
-@media (min-width: 480px) {
+@media (min-width: 375px) {
 
  #contact {
   margin-top: 40px;
@@ -521,15 +521,15 @@ iframe {
   width: 50%;
   height: auto;
   top: 20px;
-  left: 120px;
+  left: 100px;
  }
 
  .focus .lead {
-  font-size: 30px;
+  font-size: 20px;
  }
 
  .focus button a {
-  font-size: 20px;
+  font-size: 15px;
  }
 
  .midcover-p1 {
@@ -577,11 +577,11 @@ iframe {
   width: 50%;
   height: auto;
   top: 40px;
-  left: 160px;
+  left: 200px;
  }
 
  .focus .lead {
-  font-size: 30px;
+  font-size: 40px;
  }
 
  .focus button a {
@@ -654,7 +654,7 @@ iframe {
 
 /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
 
-@media (min-width: 801px) {
+@media (min-width: 800px) {
 
  .card-columns {
   -webkit-column-count: 2;
@@ -875,7 +875,7 @@ iframe {
 }
 
 
-@media (min-width: 1281px) {
+@media (min-width: 1280px) {
  .card-columns {
   -webkit-column-count: 3;
      -moz-column-count: 3;
