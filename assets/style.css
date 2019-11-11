@@ -740,7 +740,7 @@ iframe {
 
 /* tablet, landscape iPad, lo-res laptops ands desktops */
 
-@media (min-width: 1025px) {
+@media (min-width: 1024px) {
  .card-columns {
   -webkit-column-count: 2;
      -moz-column-count: 2;
