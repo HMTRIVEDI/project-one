@@ -95,6 +95,20 @@ Testing is Done on following Devices/Browsers
 - Huawei p9 lite
 
 ### Testing Screenshot
+#### screen size 320
+![Screenshot](assets/img/screen320%20(1).png)
+
+![Screenshot](assets/img/screen320%20(2).png)
+
+![Screenshot](assets/img/screen320%20(3).png)
+
+![Screenshot](assets/img/screen320%20(4).png)
+
+![Screenshot](assets/img/screen320%20(5).png)
+
+#### Screen Size 480
+
+
 ### Function Testing
 - Test: fix Navbar Navigation
    1. Open website
