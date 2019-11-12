@@ -623,11 +623,11 @@ video {
   width: 50%;
   height: auto;
   top: 40px;
-  left: 200px;
+  left: 160px;
  }
 
  .focus .lead {
-  font-size: 40px;
+  font-size: 30px;
  }
 
  .focus button a {
@@ -728,7 +728,7 @@ video {
  }
 
  .focus .lead {
-  font-size: 50px;
+  font-size: 40px;
  }
 
  .display-4 {
