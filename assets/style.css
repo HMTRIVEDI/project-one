@@ -4,16 +4,34 @@ html {
 }
 
 body {
- height: 100%;
+ overflow: scroll;
  margin: 0;
  padding: 0;
  background: rgba(243, 226, 199, 1);
  font-family: 'McLaren', cursive;
- overflow: scroll;
  text-transform: capitalize;
 }
 
+.container-fluid {
+ margin: 0px;
+ padding: 0px;
+}
+
+.row {
+ margin: 0px;
+ padding: 0px;
+}
+
 /*navigation bar style*/
+
+.navigationbar {
+ width: 100%;
+ position: fixed;
+ top: 0;
+ z-index: 1;
+}
+
+
 
 .navbar-light .navbar-brand {
  padding: 5px;
@@ -71,11 +89,6 @@ body {
 
 
 /***contant style Home page***/
-
-.container-fluid {
- padding: 0;
- margin-top: 70px;
-}
 
 #food img {
  top: 10px;
@@ -201,7 +214,7 @@ body {
 
 video {
  padding-top: 10px;
- background-color: black;
+ background-color: #000000;
  width: 100%;
 
 }
@@ -261,11 +274,12 @@ video {
 /********menu*******/
 
 .menu {
+ margin: 0px;
+ padding: 0px;
  background-image: url("img/oldpaper.jpg");
  background-size: cover;
  color: #006e47;
  text-align: center;
- margin-top: 35px;
 }
 
 .bg-trans {
@@ -300,23 +314,41 @@ video {
 /***contact**/
 
 #contact {
- margin: 10%;
- padding-top: 15%
+ padding: 40px;
 }
 
-#contact .h5 {
- border-radius: 10px;
- background-color: rgba(0, 200, 0, 0.1);
+.respomap {
+ overflow: hidden;
+ padding-bottom: 56.25%;
+ position: relative;
+ height: 0px;
 }
 
-iframe {
- height: 100%;
+.respomap iframe {
+ left: 0;
+ top: 0;
+ height: Auto;
  width: 100%;
+ position: absolute;
+ z-index: -1;
+}
+
+#location {
+ margin-top: 20px;
+ font-size: 20px;
+}
+
+#location .address {
+ text-transform: uppercase;
+ color: rgb(350, 0, 550);
+ padding-top: 30px;
+ font-size: 20px;
 }
 
 /*join Us*/
 
 .believe {
+ position: static;
  margin-top: 12%;
  padding: 0;
 }
@@ -385,11 +417,12 @@ iframe {
 #footer {
  text-align: center;
  padding: 0%;
- bottom: 0;
+ bottom: 0%;
  margin: 0%;
- background-color: rgba(0, 0, 0, 0.8);
+ background-color: #000000;
  width: 100%;
- position: static;
+ position: inherit;
+ clear: both;
 }
 
 #footer .col-sm-4 H6 {
@@ -405,7 +438,6 @@ iframe {
 #footer .col-sm-4 {
  margin-top: 10px;
  font-weight: bolder;
- font-size: 15px;
  width: 100%;
  text-align: center;
  color: #ff9999;
@@ -413,13 +445,15 @@ iframe {
  text-transform: uppercase;
 }
 
-.col-sm-4 a i {
+.socialmedia a i {
+ font-size: 50px;
  text-align: center;
  color: #ff9999;
 }
 
-#socialmedia a {
+.socialmedia a {
  padding-left: 20px;
+ padding-top: 10px;
 }
 
 #opening p {
@@ -455,6 +489,7 @@ iframe {
  }
 
  /**index pg**/
+ 
  .focus {
   text-align: center;
   font-size: 20px;
@@ -492,25 +527,32 @@ iframe {
   color: #ff80ff;
   line-height: 20px;
  }
-
+ 
+ #food {
+  margin-top: 70px;
+ }
  .menu {
+  margin-top: 70px;
+ }
+ #offer {
+  margin-top: 100px;
+ }
+ #contact {
+  margin-top: 90px;
+ }
+ .moto {
   margin-top: 70px;
  }
  .believe {
   margin-top: 70px;
  }
 
- #contact {
-  margin-top: 50px;
- }
 
 }
 
 @media (min-width: 375px) {
 
- #contact {
-  margin-top: 40px;
- }
+
 
 
  .focus {
@@ -550,24 +592,28 @@ iframe {
   line-height: 40px;
  }
 
- #contact {
-  margin-top: 5%;
- }
+
 
  .believe {
   margin-top: 70px;
   padding: 0;
  }
 
- .menu {
 
-  margin-top: 70px;
- }
 }
 
 /* smartphones, Android phones, landscape iPhone */
 
 @media (min-width: 600px) {
+ .navbar-nav {
+  margin-left: 35%
+ }
+
+
+ .nav-link {
+  font-size: 20px;
+ }
+
 
  .focus {
   text-align: center;
@@ -591,8 +637,8 @@ iframe {
 
  .card-columns {
   -webkit-column-count: 1;
-     -moz-column-count: 1;
-          column-count: 1;
+  -moz-column-count: 1;
+  column-count: 1;
  }
 
  #about .col-sm-6 .H4 {
@@ -629,16 +675,8 @@ iframe {
   line-height: 1.2;
  }
 
- #contact {
-  margin-top: 2%;
- }
 
- #contact h5 {
-  text-align: center;
-  font-size: 1.0rem;
-  border-radius: 10px;
-  background-color: rgba(0, 200, 0, 0.1);
- }
+
 
  .moto .h1 {
   text-align: center;
@@ -646,25 +684,29 @@ iframe {
   text-transform: capitalize;
   text-shadow: 5px 5px 20px;
  }
- .menu {
 
-  margin-top: 70px;
- }
 }
 
-/* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
+/* portrait tablets, portrait iPad, e-readers ,  */
 
 @media (min-width: 800px) {
 
+ .navbar-nav {
+  margin-left: 35%
+ }
+
+ .nav-link {
+  font-size: 20px;
+  text-align: center;
+  margin-left: 50px;
+ }
+
  .card-columns {
   -webkit-column-count: 2;
-     -moz-column-count: 2;
-          column-count: 2;
+  -moz-column-count: 2;
+  column-count: 2;
  }
- .menu {
 
-  margin-top: 90px;
- }
  .moto .h1 {
   margin-top: 10px;
   padding-top: 8px;
@@ -688,7 +730,7 @@ iframe {
  .focus .lead {
   font-size: 50px;
  }
- 
+
  .display-4 {
   font-size: 4rem;
   font-weight: 300;
@@ -743,13 +785,10 @@ iframe {
 @media (min-width: 1024px) {
  .card-columns {
   -webkit-column-count: 2;
-     -moz-column-count: 2;
-          column-count: 2;
+  -moz-column-count: 2;
+  column-count: 2;
  }
- .menu {
 
-  margin-top: 82px;
- }
  .navbar-light .navbar-brand {
   padding: 5px;
  }
@@ -825,15 +864,7 @@ iframe {
   font-size: 20px;
  }
 
- #contact {
-  margin: 10%;
-  padding-top: 5%;
- }
- #contact .h4 {
-  font-size: 40px;
-  border-radius: 10px;
-  background-color: rgba(0, 200, 0, 0.1);
- }
+
 
  .offerzone {
   margin-top: 5%;
@@ -867,10 +898,7 @@ iframe {
   padding: 10px;
  }
 
- .menu {
-  padding: 0;
-  margin-top: 70px;
- }
+
  /* big landscape tablets, laptops, and desktops */
 }
 
@@ -878,14 +906,11 @@ iframe {
 @media (min-width: 1280px) {
  .card-columns {
   -webkit-column-count: 3;
-     -moz-column-count: 3;
-          column-count: 3;
+  -moz-column-count: 3;
+  column-count: 3;
  }
 
- .menu {
 
-  margin-top: 70px;
- }
 
  .navbar-light .navbar-brand {
   padding: 5px;
@@ -938,10 +963,6 @@ iframe {
  }
 
 
- .menu {
-  padding: 0;
-  margin-top: 80px;
- }
 
  .focus {
   Color: #F7E9D4;
@@ -983,8 +1004,7 @@ iframe {
   text-transform: capitalize;
   text-shadow: 5px 5px 20px;
  }
- #contact {
-  margin-top: 40px;
- }
+
+
  /* hi-res laptops and desktops */
 }
