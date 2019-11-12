@@ -26,21 +26,8 @@ Website shall contain 5 page which represent 7 section of website
 7.	Footer: information about Address , opening Hours, Social media Links And version.
 
 ### Wireframe 
-<<<<<<< HEAD
-![wireframe](assets/img/dip.jpg)
-<img src="assets/img/dip.jpg" alt="wireframe">
-=======
-   ![wirefrem](assets/img/Slide1.GIF)
-   
-   ![wirefrem](assets/img/Slide2.GIF)
-   
-![wirefrem](assets/img/Slide3.GIF)
-
-![wirefrem](assets/img/Slide4.GIF)
 
 
-
->>>>>>> ef1e04308856e4b5c27762e5a4de53df5998862f
 ### Current Features
 
 - website provide Information About The Menu
@@ -73,19 +60,6 @@ https://fontawesome.com/icons
 font awesome used for Social Media & Menu Icons
 1.	Facebook
 2.	You tube
-<<<<<<< HEAD
-3.	Twitter 
-
-### Google Font 
-https://fonts.google.com/specimen/McLaren
-font-family: 'McLaren', cursive;
-
-### AWS
-Project Developed in AWS Cloud 9 Environment.
-
-### Logo Maker
-https://logomakr.com/
-=======
 3.	Twitter
 
 ### Google Font 
@@ -97,7 +71,6 @@ https://logomakr.com/
 
 ### Logo Maker
 - https://logomakr.com/
->>>>>>> ef1e04308856e4b5c27762e5a4de53df5998862f
 
 ### Favicon Generator
 - https://www.favicon-generator.org/
