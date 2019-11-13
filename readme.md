@@ -7,13 +7,13 @@ This website present a work done for first milestone project , web site is for a
 
 ### User Stories 
 User should be able to navigate in website with ease and wondering where to look, all option should be visible and communicate it’s purpose.
-•	User want to know about company
-•	User want to know what food does restaurant offer
-•	User want to know where to find restaurant, 
-•	User want to do booking, complain or give suggestions.
-•	User want to know about company’s beliefs and contribution to society .
-•	User want to know about restaurant working hours.
-•	User want to work with company.
+- User want to know about company
+- User want to know what food does restaurant offer
+- User want to know where to find restaurant, 
+- User want to do booking, complain or give suggestions.
+- User want to know about company’s beliefs and contribution to society .
+- User want to know about restaurant working hours.
+- User want to work with company.
 
 ### UX
 Website shall contain 5 page which represent 7 section of website
@@ -21,9 +21,9 @@ Website shall contain 5 page which represent 7 section of website
 2.	Home (Index.html) : Basic information about company , some highlight about menu and offer
 3.	Menu (menu.html): Information about the Food Menu.
 4.	Offer zone (offerzone.html): Information About offers
-5.	Contact (contact.html): Web inquiry form & Location Map(Google Map)
+5.	Contact (contact.html): Web inquiry form,contact number,Address,Location Map(Google Map)
 6.	What We Believe (believe.html):Information About company values & what there customer & Employee think about company
-7.	Footer: information about Address , opening Hours, Social media Links And version.
+7.	Footer: Social media Links And version information.
 
 ### Wireframe 
 
@@ -40,9 +40,9 @@ Website shall contain 5 page which represent 7 section of website
 
 Planning to implement following Features
 
--online food ordering
--online payment
--Improvement In booking System.
+- online food ordering
+- online payment
+- Improvement In booking System.
 
 ## Technologies Used:
 
@@ -61,6 +61,7 @@ font awesome used for Social Media & Menu Icons
 1.	Facebook
 2.	You tube
 3.	Twitter
+4.	Burger Icon
 
 ### Google Font 
 - https://fonts.google.com/specimen/McLaren
@@ -79,12 +80,12 @@ font awesome used for Social Media & Menu Icons
 ## Testing
 ### Tools
 Testing is Done on following Devices/Browsers
-- Desktop 
+- Lenovo ideapad 110 (laptop) 
    - Chrome
    - Mozilla
    - Safari
 - Iphone X
-- Huawei p9 lite
+- Ipad
 
 ### Testing Screenshot
 
@@ -95,7 +96,19 @@ Testing is Done on following Devices/Browsers
 ![iphonex](assets/img/iphone-x-4.png)
 ![iphonex](assets/img/iphone-x-5.png)
 
+#### I-Pad
+![iphonex](assets/img/ipad-1.png)
+![iphonex](assets/img/ipad-2.png)
+![iphonex](assets/img/ipad-3.png)
+![iphonex](assets/img/ipad-4.png)
 
+#### Laptop
+![iphonex](assets/img/laptop-1.png)
+![iphonex](assets/img/laptop-2.png)
+![iphonex](assets/img/laptop-3.png)
+![iphonex](assets/img/laptop-4.png)
+![iphonex](assets/img/laptop-5.png)
+![iphonex](assets/img/laptop-6.png)
 ### Function Testing
 - Test: fix Navbar Navigation
    1. Open website
@@ -110,7 +123,7 @@ Testing is Done on following Devices/Browsers
    2. Click on Social Media icon Facebook , YouTube , Twitter 
    3. See if relevant page load in different tab on click.
    
- - Test: Write To Us Form
+ - Test: Contact Form
    - Test: Form Validator 
     1. Click on submit button.
     2. See if text appears “Field Required “ ( Valid Email, Comment,
@@ -122,7 +135,7 @@ Testing is Done on following Devices/Browsers
    1. Move Mouse on different links in Navbar.
    2. On Hover Background of Link And Font color Should change.
    3. On Home Page  “Check Menu now “ should have aura effect and should blink.
-   4. On Home Page “Are you ready for Halloween fest should have blink effect”
+   4. On Home Page “Are you ready for New Year fest should have blink effect”
 
 ## Deployment
 
@@ -145,7 +158,8 @@ For Menu Content inspiration took from Wendy’s , Burger king, Mc Donald’s
 ### Acknowledgement 
 Acknowledgment to following in this project
 
--Rahul Patil
--https://css-tricks.com/
--https://www.w3schools.com/
+- Rahul Patil
+- https://css-tricks.com/
+- https://www.w3schools.com/
+- Slack Community
 

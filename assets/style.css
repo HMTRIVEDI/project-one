@@ -684,6 +684,24 @@ video {
   text-transform: capitalize;
   text-shadow: 5px 5px 20px;
  }
+ #food {
+  margin-top: 100px;
+ }
+ .menu {
+  margin-top: 90px;
+ }
+ #offer {
+  margin-top: 110px;
+ }
+ #contact {
+  margin-top: 90px;
+ }
+ .moto {
+  margin-top: 70px;
+ }
+ .believe {
+  margin-top: 70px;
+ }
 
 }
 
