@@ -308,24 +308,25 @@ video {
 
 /***contact**/
 
-#contact-form {margin-top: 0px;
+#contact-form {
+ margin-top: 0px;
  padding: 40px;
 }
 
 .respomap {
  overflow: hidden;
- padding-bottom: 55%;
+ padding-bottom: 60%;
  position: relative;
  height: 0px;
 }
 
 .respomap iframe {
+ border: 0;
  left: 0;
  top: 0;
- height: Auto;
+ max-height: 50%;
  width: 100%;
  position: absolute;
- z-index: -1;
 }
 
 #location {
@@ -335,9 +336,11 @@ video {
 
 #location .address {
  text-transform: uppercase;
- color: 	rgb(102, 0, 102);
+ color: rgb(102, 0, 102);
  padding-top: 30px;
- font-size: 20px;font-style: italic;text-shadow:5px 5px 10px;
+ font-size: 20px;
+ font-style: italic;
+ text-shadow: 5px 5px 10px;
 }
 
 /*join Us*/
@@ -484,7 +487,6 @@ video {
  }
 
  /**index pg**/
- 
  .focus {
   text-align: center;
   font-size: 20px;
@@ -522,7 +524,7 @@ video {
   color: #ff80ff;
   line-height: 20px;
  }
- 
+
  #food {
   margin-top: 70px;
  }
@@ -789,8 +791,8 @@ video {
   line-height: 40px;
   text-align: justify;
  }
- 
-  #food {
+
+ #food {
   margin-top: 100px;
  }
  .menu {
@@ -929,8 +931,8 @@ video {
  .moto-p2 {
   padding: 10px;
  }
- 
-  #food {
+
+ #food {
   margin-top: 70px;
  }
  .menu {
@@ -1055,7 +1057,7 @@ video {
   text-transform: capitalize;
   text-shadow: 5px 5px 20px;
  }
-  #food {
+ #food {
   margin-top: 90px;
  }
  .menu {
