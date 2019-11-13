@@ -313,13 +313,13 @@ video {
 
 /***contact**/
 
-#contact {
+#contact-form {margin-top: 0px;
  padding: 40px;
 }
 
 .respomap {
  overflow: hidden;
- padding-bottom: 56.25%;
+ padding-bottom: 55%;
  position: relative;
  height: 0px;
 }
@@ -340,9 +340,9 @@ video {
 
 #location .address {
  text-transform: uppercase;
- color: rgb(350, 0, 550);
+ color: 	rgb(102, 0, 102);
  padding-top: 30px;
- font-size: 20px;
+ font-size: 20px;font-style: italic;text-shadow:5px 5px 10px;
 }
 
 /*join Us*/
@@ -776,6 +776,25 @@ video {
   line-height: 40px;
   text-align: justify;
  }
+ 
+  #food {
+  margin-top: 100px;
+ }
+ .menu {
+  margin-top: 90px;
+ }
+ #offer {
+  margin-top: 110px;
+ }
+ #contact {
+  margin-top: 90px;
+ }
+ .moto {
+  margin-top: 70px;
+ }
+ .believe {
+  margin-top: 70px;
+ }
 }
 
 
@@ -897,6 +916,25 @@ video {
  .moto-p2 {
   padding: 10px;
  }
+ 
+  #food {
+  margin-top: 70px;
+ }
+ .menu {
+  margin-top: 70px;
+ }
+ #offer {
+  margin-top: 80px;
+ }
+ #contact {
+  margin-top: 70px;
+ }
+ .moto {
+  margin-top: 50px;
+ }
+ .believe {
+  margin-top: 70px;
+ }
 
 
  /* big landscape tablets, laptops, and desktops */
@@ -1003,6 +1041,24 @@ video {
   font-size: 120px!important;
   text-transform: capitalize;
   text-shadow: 5px 5px 20px;
+ }
+  #food {
+  margin-top: 90px;
+ }
+ .menu {
+  margin-top: 80px;
+ }
+ #offer {
+  margin-top: 90px;
+ }
+ #contact {
+  margin-top: 90px;
+ }
+ .moto {
+  margin-top: 70px;
+ }
+ .believe {
+  margin-top: 70px;
  }
 
 
